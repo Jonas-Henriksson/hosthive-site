@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About HostHive" description="Learn about HostHive's mission, testing methodology, and editorial standards.">
+  <div class="container"><div class="legal-page">
+    <h1>About HostHive</h1>
+    <section><h2>Our Mission</h2><p>HostHive helps you make informed decisions about web hosting. We provide independent reviews based on real performance data — uptime monitoring, speed benchmarks, and hands-on testing.</p></section>
+    <section><h2>How We Test</h2><p>Every hosting provider we review goes through comprehensive testing:</p>
+      <ul>
+        <li><strong>Uptime monitoring</strong> over 30+ days with minute-by-minute checks</li>
+        <li><strong>Speed benchmarks</strong> using GTmetrix, Pingdom, and custom load testing</li>
+        <li><strong>Support evaluation</strong> via live chat, tickets, and phone across multiple time zones</li>
+        <li><strong>Migration testing</strong> to assess ease of moving sites between providers</li>
+        <li><strong>Scaling tests</strong> to see how hosting handles traffic spikes</li>
+        <li><strong>Value analysis</strong> comparing features per dollar across plans</li>
+      </ul></section>
+    <section><h2>Editorial Independence</h2><p>Affiliate commissions never influence our reviews. We recommend hosting we'd use ourselves. Every review includes both strengths and weaknesses.</p></section>
+    <section><h2>Contact</h2><p>Questions or hosting you'd like us to review? Email <a href="mailto:info@hosthive.net">info@hosthive.net</a>.</p></section>
+  </div></div>
+</BaseLayout>
+<style>
+  .legal-page { max-width: 700px; margin: 0 auto; padding: 3rem 0; }
+  .legal-page h1 { font-size: 2.5rem; margin-bottom: 2rem; }
+  .legal-page section { margin-bottom: 2.5rem; }
+  .legal-page h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #f59e0b; }
+  .legal-page p { color: #d1d8e0; line-height: 1.8; margin-bottom: 1rem; }
+  .legal-page ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+  .legal-page li { color: #d1d8e0; line-height: 1.8; margin-bottom: 0.5rem; }
+  .legal-page strong { color: #ffffff; }
+</style>

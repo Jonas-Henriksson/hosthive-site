@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+const featured = articles.filter((a) => a.data.featured).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const latest = articles.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()).slice(0, 6);
+
+const categories = ['wordpress', 'shared', 'vps', 'cloud', 'dedicated', 'ecommerce', 'managed', 'budget'];
+const categoryIcons: Record<string, string> = {
+  wordpress: 'W',
+  shared: 'S',
+  vps: 'V',
+  cloud: 'C',
+  dedicated: 'D',
+  ecommerce: 'E',
+  managed: 'M',
+  budget: 'B',
+};
+
+const categoryColors: Record<string, string> = {
+  wordpress: '#6366f1',
+  shared: '#f59e0b',
+  vps: '#10b981',
+  cloud: '#06b6d4',
+  dedicated: '#ef4444',
+  ecommerce: '#ec4899',
+  managed: '#8b5cf6',
+  budget: '#84cc16',
+};
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'HostHive',
+  url: 'https://hosthive.net',
+  description: 'In-depth web hosting reviews, comparisons, and guides.',
+};
+---
+
+<BaseLayout title="Best Web Hosting Reviews & Comparisons 2026" description="Find the perfect web hosting with HostHive. Expert reviews, speed benchmarks, uptime data, and honest recommendations." structuredData={structuredData}>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Find Your Perfect Web Host</h1>
+        <p class="hero-subtitle">Speed benchmarks, uptime monitoring, and honest reviews for every hosting provider</p>
+        <div class="hero-cta">
+          <a href="#latest" class="btn btn-primary">See Top Picks</a>
+          <a href="#categories" class="btn btn-secondary">Browse by Category</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="host-grid">
+          <div class="host-card">Bluehost</div>
+          <div class="host-card">SiteGround</div>
+          <div class="host-card">Hostinger</div>
+          <div class="host-card">Cloudways</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="featured-section" id="featured">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Reviews</h2>
+          <p>Our top-rated hosting providers, tested and benchmarked</p>
+        </div>
+        <div class="featured-grid">
+          {featured.map((article) => (
+            <article class="featured-card">
+              <div class="card-header">
+                <h3><a href={`/${article.slug}`}>{article.data.title}</a></h3>
+                <span class="badge" style={`background-color: ${categoryColors[article.data.category] || '#f59e0b'}20; color: ${categoryColors[article.data.category] || '#f59e0b'}`}>{article.data.category}</span>
+              </div>
+              <p class="card-description">{article.data.description}</p>
+              <a href={`/${article.slug}`} class="read-more">Read Full Review</a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <h2>Browse by Category</h2>
+        <p>Find hosting tailored to your specific needs</p>
+      </div>
+      <div class="categories-grid">
+        {categories.map((cat) => {
+          const count = articles.filter((a) => a.data.category === cat).length;
+          const color = categoryColors[cat] || '#f59e0b';
+          return (
+            <div class="category-item">
+              <div class="category-icon" style={`background-color: ${color}20; color: ${color}`}>{categoryIcons[cat]}</div>
+              <h3>{cat.charAt(0).toUpperCase() + cat.slice(1)}</h3>
+              <p>{count} {count === 1 ? 'article' : 'articles'}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="latest-section" id="latest">
+    <div class="container">
+      <div class="section-header">
+        <h2>Latest Reviews & Guides</h2>
+        <p>Stay updated with our newest hosting reviews</p>
+      </div>
+      <div class="articles-grid">
+        {latest.map((article) => {
+          const date = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(article.data.date);
+          const color = categoryColors[article.data.category] || '#f59e0b';
+          return (
+            <article class="article-card">
+              <div class="article-card-header">
+                <span class="article-date">{date}</span>
+                <span class="article-category" style={`background-color: ${color}20; color: ${color}`}>{article.data.category}</span>
+              </div>
+              <h3><a href={`/${article.slug}`}>{article.data.title}</a></h3>
+              <p>{article.data.description}</p>
+              <a href={`/${article.slug}`} class="article-link">Read Article</a>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Choose Your Host?</h2>
+        <p>Browse our reviews based on real uptime data, speed benchmarks, and hands-on testing.</p>
+        <a href="/reviews" class="btn btn-primary">Explore All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <style is:global>
+    .hero { background: linear-gradient(135deg, #0f1117 0%, #1a1d2b 50%, #0f1117 100%); border-bottom: 1px solid #1a1d2b; padding: 5rem 0; margin-bottom: 4rem; }
+    .hero .container { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+    .hero-content h1 { font-size: 3rem; margin-bottom: 1.5rem; background: linear-gradient(135deg, #ffffff 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-subtitle { font-size: 1.25rem; color: #a8b3bf; margin-bottom: 2rem; line-height: 1.6; }
+    .hero-cta { display: flex; gap: 1rem; }
+    .btn { display: inline-block; padding: 0.875rem 2rem; border-radius: 0.375rem; font-weight: 600; text-decoration: none; transition: all 0.3s ease; cursor: pointer; }
+    .btn-primary { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: #ffffff; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 16px rgba(245, 158, 11, 0.3); color: #ffffff; }
+    .btn-secondary { background-color: transparent; color: #f59e0b; border: 2px solid #f59e0b; }
+    .btn-secondary:hover { background-color: #f59e0b20; }
+    .host-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .host-card { background: linear-gradient(135deg, #1a1d2b 0%, #2d3748 100%); border: 1px solid #f59e0b; border-radius: 0.5rem; padding: 2rem; text-align: center; font-weight: 600; color: #ffffff; transition: all 0.3s ease; }
+    .host-card:hover { background: linear-gradient(135deg, #2d3748 0%, #3e4556 100%); box-shadow: 0 8px 16px rgba(245, 158, 11, 0.2); transform: translateY(-4px); }
+
+    .featured-section, .categories-section, .latest-section { padding: 4rem 0; border-bottom: 1px solid #1a1d2b; }
+    .section-header { text-align: center; margin-bottom: 3rem; }
+    .section-header h2 { margin-top: 0; margin-bottom: 0.5rem; }
+    .section-header p { color: #a8b3bf; font-size: 1.1rem; }
+
+    .featured-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .featured-card { background: linear-gradient(135deg, #1a1d2b 0%, #2d3748 100%); border: 1px solid #2d3748; border-radius: 0.5rem; padding: 2rem; transition: all 0.3s ease; }
+    .featured-card:hover { border-color: #f59e0b; box-shadow: 0 8px 24px rgba(245, 158, 11, 0.15); transform: translateY(-4px); }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+    .card-header h3 { margin: 0; font-size: 1.25rem; }
+    .card-header a { color: #ffffff; }
+    .card-header a:hover { color: #f59e0b; }
+    .badge { padding: 0.25rem 0.75rem; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; white-space: nowrap; }
+    .card-description { color: #d1d8e0; margin-bottom: 1.5rem; line-height: 1.6; }
+    .read-more { color: #f59e0b; font-weight: 600; }
+
+    .categories-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; }
+    .category-item { background-color: #1a1d2b; border: 1px solid #2d3748; border-radius: 0.5rem; padding: 1.5rem; text-align: center; transition: all 0.3s ease; }
+    .category-item:hover { border-color: #f59e0b; box-shadow: 0 8px 16px rgba(245, 158, 11, 0.1); }
+    .category-icon { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 700; font-size: 1.2rem; }
+    .category-item h3 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1rem; }
+    .category-item p { color: #a8b3bf; margin-bottom: 0; font-size: 0.85rem; }
+
+    .articles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+    .article-card { background-color: #1a1d2b; border: 1px solid #2d3748; border-radius: 0.5rem; padding: 1.5rem; transition: all 0.3s ease; }
+    .article-card:hover { border-color: #f59e0b; box-shadow: 0 8px 16px rgba(245, 158, 11, 0.15); }
+    .article-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 1rem; }
+    .article-date { color: #a8b3bf; font-size: 0.85rem; }
+    .article-category { padding: 0.25rem 0.75rem; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; white-space: nowrap; }
+    .article-card h3 { margin-top: 0; margin-bottom: 0.75rem; }
+    .article-card h3 a { color: #ffffff; }
+    .article-card h3 a:hover { color: #f59e0b; }
+    .article-card p { color: #d1d8e0; margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.6; }
+    .article-link { color: #f59e0b; font-weight: 600; }
+
+    .cta-section { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); padding: 4rem 0; margin: 4rem 0 0 0; }
+    .cta-content { text-align: center; }
+    .cta-content h2 { color: #ffffff; margin-bottom: 1rem; }
+    .cta-content p { color: #fef3c7; font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+    .cta-content .btn-primary { background-color: #ffffff; color: #d97706; }
+    .cta-content .btn-primary:hover { background-color: #fefce8; color: #d97706; }
+
+    @media (max-width: 768px) {
+      .hero { padding: 3rem 0; margin-bottom: 2rem; }
+      .hero .container { grid-template-columns: 1fr; gap: 2rem; }
+      .hero-content h1 { font-size: 2rem; }
+      .hero-cta { flex-direction: column; }
+      .featured-grid, .articles-grid, .categories-grid { grid-template-columns: 1fr; }
+      .featured-section, .categories-section, .latest-section { padding: 2rem 0; }
+    }
+  </style>
+</BaseLayout>

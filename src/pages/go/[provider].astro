@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const providers = [
+    { provider: 'bluehost', name: 'Bluehost', url: 'https://bluehost.com' },
+    { provider: 'siteground', name: 'SiteGround', url: 'https://siteground.com' },
+    { provider: 'hostinger', name: 'Hostinger', url: 'https://hostinger.com' },
+    { provider: 'cloudways', name: 'Cloudways', url: 'https://cloudways.com' },
+    { provider: 'wpengine', name: 'WP Engine', url: 'https://wpengine.com' },
+    { provider: 'kinsta', name: 'Kinsta', url: 'https://kinsta.com' },
+  ];
+  return providers.map((p) => ({
+    params: { provider: p.provider },
+    props: { name: p.name, url: p.url },
+  }));
+}
+
+const { name, url } = Astro.props;
+---
+
+<BaseLayout title={`Visit ${name}`} description={`Redirecting to ${name} - recommended by HostHive`}>
+  <div class="redirect-page">
+    <h1>Redirecting to {name}...</h1>
+    <p>If you're not redirected automatically, <a href={url} rel="nofollow sponsored">click here</a>.</p>
+    <p class="disclosure">HostHive may earn a commission if you sign up. This doesn't affect our reviews.</p>
+  </div>
+</BaseLayout>
+
+<script define:vars={{ url }}>
+  setTimeout(() => { window.location.href = url; }, 1500);
+</script>
+
+<style>
+  .redirect-page { text-align: center; padding: 6rem 1rem; }
+  .redirect-page h1 { font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem; }
+  .redirect-page p { color: #a8b3bf; margin-bottom: 1rem; }
+  .disclosure { font-size: 0.85rem; color: #6b7280; margin-top: 2rem; }
+</style>

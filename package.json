@@ -1,0 +1,16 @@
+{
+  "name": "hosthive",
+  "version": "1.0.0",
+  "description": "HostHive - Web Hosting Reviews and Comparisons",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/sitemap": "3.1.6",
+    "astro": "^4.0.0"
+  }
+}
