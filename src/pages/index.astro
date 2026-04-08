@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 import { getCollection } from 'astro:content';
 
 const articles = await getCollection('articles');
@@ -128,6 +129,12 @@ const structuredData = {
           );
         })}
       </div>
+    </div>
+  </section>
+
+  <section class="latest-section">
+    <div class="container">
+      <NewsletterSignup variant="hero" />
     </div>
   </section>
 
