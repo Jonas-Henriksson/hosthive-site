@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hosthive.net/sitemap-index.xml
+Sitemap: https://host-hive.net/sitemap-index.xml

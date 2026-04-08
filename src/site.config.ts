@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: 'HostHive',
   description: 'In-depth web hosting reviews, comparisons, and guides. Find the best hosting for WordPress, ecommerce, agencies, and more.',
-  url: 'https://hosthive.net',
+  url: 'https://host-hive.net',
   logo: 'HostHive',
   author: 'HostHive Team',
-  email: 'info@hosthive.net',
+  email: 'info@host-hive.net',
   social: {
     twitter: 'https://twitter.com/hosthive',
     facebook: 'https://facebook.com/hosthive',
@@ -18,13 +18,13 @@ export const siteConfig = {
     { label: 'About', href: '/about' },
   ],
   affiliatePrograms: {
-    bluehost: { name: 'Bluehost', affiliateUrl: 'https://hosthive.net/go/bluehost', commission: '65+ per sale' },
-    siteground: { name: 'SiteGround', affiliateUrl: 'https://hosthive.net/go/siteground', commission: '50+ per sale' },
-    hostinger: { name: 'Hostinger', affiliateUrl: 'https://hosthive.net/go/hostinger', commission: '60+ per sale' },
-    cloudways: { name: 'Cloudways', affiliateUrl: 'https://hosthive.net/go/cloudways', commission: 'Up to 125 per sale' },
-    wpengine: { name: 'WP Engine', affiliateUrl: 'https://hosthive.net/go/wpengine', commission: '200+ per sale' },
-    kinsta: { name: 'Kinsta', affiliateUrl: 'https://hosthive.net/go/kinsta', commission: 'Up to 500 per sale' },
+    bluehost: { name: 'Bluehost', affiliateUrl: 'https://host-hive.net/go/bluehost', commission: '65+ per sale' },
+    siteground: { name: 'SiteGround', affiliateUrl: 'https://host-hive.net/go/siteground', commission: '50+ per sale' },
+    hostinger: { name: 'Hostinger', affiliateUrl: 'https://host-hive.net/go/hostinger', commission: '60+ per sale' },
+    cloudways: { name: 'Cloudways', affiliateUrl: 'https://host-hive.net/go/cloudways', commission: 'Up to 125 per sale' },
+    wpengine: { name: 'WP Engine', affiliateUrl: 'https://host-hive.net/go/wpengine', commission: '200+ per sale' },
+    kinsta: { name: 'Kinsta', affiliateUrl: 'https://host-hive.net/go/kinsta', commission: 'Up to 500 per sale' },
   },
   keywords: 'web hosting reviews, best hosting, WordPress hosting, hosting comparison, cheap hosting, VPS hosting, cloud hosting',
-  og: { image: 'https://hosthive.net/og-image.png', type: 'website' },
+  og: { image: 'https://host-hive.net/og-image.png', type: 'website' },
 };
