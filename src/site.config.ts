@@ -1,22 +1,20 @@
 export const siteConfig = {
-  name: 'HostHive',
+  siteName: 'HostHive',
+  tagline: 'The Hosting Benchmark — Tested. Scored. Ranked.',
+  domain: process.env.SITE_URL || 'https://host-hive.net',
   description: 'In-depth web hosting reviews, comparisons, and guides. Find the best hosting for WordPress, ecommerce, agencies, and more.',
-  url: 'https://host-hive.net',
-  logo: 'HostHive',
-  author: 'HostHive Team',
-  email: 'info@host-hive.net',
-  social: {
-    twitter: 'https://twitter.com/hosthive',
-    facebook: 'https://facebook.com/hosthive',
-    linkedin: 'https://linkedin.com/company/hosthive',
+  niche: 'web-hosting',
+  category: 'Web Hosting & Infrastructure',
+  defaultAuthor: {
+    name: 'HostHive Editorial Team',
+    bio: 'We test, benchmark, and review hosting providers so you don\'t have to.',
   },
-  nav: [
-    { label: 'Home', href: '/' },
-    { label: 'Reviews', href: '/reviews' },
-    { label: 'Comparisons', href: '/comparisons' },
-    { label: 'Guides', href: '/guides' },
-    { label: 'About', href: '/about' },
-  ],
+  analytics: {
+    enabled: true,
+    type: 'plausible',
+    plausibleDomain: process.env.PLAUSIBLE_DOMAIN || 'host-hive.net',
+    googleId: process.env.GOOGLE_ANALYTICS_ID || '',
+  },
   affiliatePrograms: {
     bluehost: { name: 'Bluehost', affiliateUrl: 'https://host-hive.net/go/bluehost', commission: '65+ per sale' },
     siteground: { name: 'SiteGround', affiliateUrl: 'https://host-hive.net/go/siteground', commission: '50+ per sale' },
@@ -25,6 +23,16 @@ export const siteConfig = {
     wpengine: { name: 'WP Engine', affiliateUrl: 'https://host-hive.net/go/wpengine', commission: '200+ per sale' },
     kinsta: { name: 'Kinsta', affiliateUrl: 'https://host-hive.net/go/kinsta', commission: 'Up to 500 per sale' },
   },
-  keywords: 'web hosting reviews, best hosting, WordPress hosting, hosting comparison, cheap hosting, VPS hosting, cloud hosting',
+  social: {
+    twitter: 'https://twitter.com/hosthive',
+    facebook: 'https://facebook.com/hosthive',
+    linkedin: 'https://linkedin.com/company/hosthive',
+    instagram: '',
+  },
+  content: { postsPerPage: 12, featuredPostsCount: 3, relatedPostsCount: 3 },
+  seo: { includeJsonLd: true, sitemap: true, robotsTxt: true },
+  email: 'info@host-hive.net',
   og: { image: 'https://host-hive.net/og-image.png', type: 'website' },
 };
+
+export default siteConfig;
