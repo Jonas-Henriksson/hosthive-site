@@ -32,8 +32,9 @@ const { name, url } = Astro.props;
 </script>
 
 <style>
-  .redirect-page { text-align: center; padding: 6rem 1rem; }
-  .redirect-page h1 { font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem; }
-  .redirect-page p { color: #a8b3bf; margin-bottom: 1rem; }
-  .disclosure { font-size: 0.85rem; color: #6b7280; margin-top: 2rem; }
+  .redirect-page { text-align: center; padding: var(--space-4xl) var(--space-lg); max-width: var(--max-width); margin: 0 auto; }
+  .redirect-page h1 { font-size: 1.75rem; color: var(--ink-950); margin-bottom: var(--space-md); }
+  .redirect-page p { color: var(--ink-500); margin-bottom: var(--space-md); }
+  .redirect-page a { color: var(--violet); }
+  .disclosure { font-size: 0.85rem; color: var(--ink-400); margin-top: var(--space-xl); }
 </style>

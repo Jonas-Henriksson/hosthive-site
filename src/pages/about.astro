@@ -1,11 +1,20 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
+
 <BaseLayout title="About HostHive" description="Learn about HostHive's mission, testing methodology, and editorial standards.">
-  <div class="container"><div class="legal-page">
-    <h1>About HostHive</h1>
-    <section><h2>Our Mission</h2><p>HostHive helps you make informed decisions about web hosting. We provide independent reviews based on real performance data — uptime monitoring, speed benchmarks, and hands-on testing.</p></section>
-    <section><h2>How We Test</h2><p>Every hosting provider we review goes through comprehensive testing:</p>
+  <article class="legal-page">
+    <span class="page-label">About</span>
+    <h1>Independent hosting reviews<br/><em>you can trust.</em></h1>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>HostHive helps you make informed decisions about web hosting. We provide independent reviews based on real performance data -- uptime monitoring, speed benchmarks, and hands-on testing.</p>
+    </section>
+
+    <section>
+      <h2>How We Test</h2>
+      <p>Every hosting provider we review goes through comprehensive testing:</p>
       <ul>
         <li><strong>Uptime monitoring</strong> over 30+ days with minute-by-minute checks</li>
         <li><strong>Speed benchmarks</strong> using GTmetrix, Pingdom, and custom load testing</li>
@@ -13,18 +22,32 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <li><strong>Migration testing</strong> to assess ease of moving sites between providers</li>
         <li><strong>Scaling tests</strong> to see how hosting handles traffic spikes</li>
         <li><strong>Value analysis</strong> comparing features per dollar across plans</li>
-      </ul></section>
-    <section><h2>Editorial Independence</h2><p>Affiliate commissions never influence our reviews. We recommend hosting we'd use ourselves. Every review includes both strengths and weaknesses.</p></section>
-    <section><h2>Contact</h2><p>Questions or hosting you'd like us to review? Email <a href="mailto:info@host-hive.net">info@host-hive.net</a>.</p></section>
-  </div></div>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Editorial Independence</h2>
+      <p>Affiliate commissions never influence our reviews. We recommend hosting we'd use ourselves. Every review includes both strengths and weaknesses.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions or hosting you'd like us to review? Email <a href="mailto:info@host-hive.net">info@host-hive.net</a>.</p>
+    </section>
+  </article>
 </BaseLayout>
+
 <style>
-  .legal-page { max-width: 700px; margin: 0 auto; padding: 3rem 0; }
-  .legal-page h1 { font-size: 2.5rem; margin-bottom: 2rem; }
-  .legal-page section { margin-bottom: 2.5rem; }
-  .legal-page h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #f59e0b; }
-  .legal-page p { color: #d1d8e0; line-height: 1.8; margin-bottom: 1rem; }
-  .legal-page ul { margin-left: 1.5rem; margin-bottom: 1rem; }
-  .legal-page li { color: #d1d8e0; line-height: 1.8; margin-bottom: 0.5rem; }
-  .legal-page strong { color: #ffffff; }
+  .legal-page { max-width: var(--max-width); margin: 0 auto; padding: var(--space-3xl) 0; }
+  .page-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); display: block; margin-bottom: var(--space-sm); }
+  .legal-page h1 { margin-bottom: var(--space-2xl); }
+  .legal-page h1 em { font-style: italic; color: var(--ink-500); }
+  .legal-page section { margin-bottom: var(--space-2xl); }
+  .legal-page h2 { font-size: 1.5rem; margin-bottom: var(--space-md); margin-top: 0; }
+  .legal-page p { color: var(--ink-700); line-height: 1.8; }
+  .legal-page ul { padding-left: 1.75rem; margin-bottom: var(--space-lg); }
+  .legal-page li { color: var(--ink-700); line-height: 1.8; margin-bottom: var(--space-sm); }
+  .legal-page strong { color: var(--ink-950); }
+  .legal-page a { color: var(--violet); }
+  .legal-page a:hover { color: var(--violet-hover); }
 </style>

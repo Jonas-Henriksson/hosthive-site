@@ -4,14 +4,11 @@ import ArticleLayout from '../layouts/ArticleLayout.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
-  return articles.map((article) => ({
-    params: { slug: article.slug },
-    props: { article },
-  }));
+  return articles.map((article) => ({ params: { slug: article.slug }, props: article }));
 }
 
-const { article } = Astro.props;
-const { Content } = await article.render();
+const article = Astro.props;
+const { Content, headings } = await article.render();
 
 // Extract FAQ pairs from raw markdown for schema
 const faqPairs: Array<{ question: string; answer: string }> = [];
@@ -35,11 +32,17 @@ if (faqMatch) {
   title={article.data.title}
   description={article.data.description}
   date={article.data.date}
-  category={article.data.category}
   author={article.data.author}
-  updated={article.data.updated}
-  affiliateLinks={article.data.affiliateLinks || []}
+  image={article.data.image}
+  category={article.data.category}
+  keywords={article.data.keywords}
+  affiliateDisclosure={article.data.affiliateDisclosure !== false}
+  headings={article.data.tableOfContents !== false ? headings : []}
   faqPairs={faqPairs}
+  score={article.data.score}
+  badge={article.data.badge}
+  verdict={article.data.verdict}
+  winner={article.data.winner}
 >
   <Content />
 </ArticleLayout>
