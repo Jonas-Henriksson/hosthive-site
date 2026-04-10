@@ -287,7 +287,7 @@ All plans include CDN, daily backups, staging environments, and premium support.
 - Overage charges for exceeding plan limits
 - Limited plugin flexibility for security reasons
 
-[Get Started with Kinsta](https://host-hive.net/go/kinsta) — Try their premium WordPress cloud hosting with a 30-day money-back guarantee.
+[Get Started with Kinsta](https://host-hive.net/go/kinsta-apps) — Try their premium WordPress cloud hosting with a 30-day money-back guarantee.
 
 ## SiteGround Cloud — Best Managed Cloud with cPanel
 

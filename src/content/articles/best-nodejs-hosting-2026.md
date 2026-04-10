@@ -200,7 +200,7 @@ Kinsta's Application Hosting platform delivers exceptional performance for Node.
 - Limited build minutes on lower plans
 - Focused primarily on premium market
 
-[Get Started with Kinsta →](https://host-hive.net/go/kinsta)
+[Get Started with Kinsta →](https://host-hive.net/go/kinsta-apps)
 
 ## 4. DigitalOcean App Platform – Best for Startups
 
@@ -548,7 +548,7 @@ Choosing the right Node.js hosting provider depends on your specific needs, tech
 
 **For growing businesses**: [Cloudways](https://host-hive.net/go/cloudways) provides the perfect balance of performance and ease of use
 
-**For enterprise applications**: [Kinsta Application Hosting](https://host-hive.net/go/kinsta) or AWS Elastic Beanstalk offer enterprise-grade features
+**For enterprise applications**: [Kinsta Application Hosting](https://host-hive.net/go/kinsta-apps) or AWS Elastic Beanstalk offer enterprise-grade features
 
 Remember to start with staging environments to test your applications thoroughly before going live. Most providers offer free trials or money-back guarantees, so you can test their services risk-free.
 

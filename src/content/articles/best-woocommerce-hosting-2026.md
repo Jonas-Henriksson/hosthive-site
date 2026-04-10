@@ -249,7 +249,7 @@ Kinsta achieved **99.99% uptime** with the fastest **165ms average TTFB** in our
 - **No email hosting** included
 - **Overage charges** for exceeding visit limits
 
-[Get Kinsta](https://host-hive.net/go/kinsta)
+[Get Kinsta](https://host-hive.net/go/kinsta-woo)
 
 ## Bluehost — Best for WooCommerce Beginners
 

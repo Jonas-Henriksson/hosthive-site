@@ -9,6 +9,8 @@ export function getStaticPaths() {
     { provider: 'cloudways', name: 'Cloudways', url: 'https://cloudways.com' },
     { provider: 'wpengine', name: 'WP Engine', url: 'https://wpengine.com' },
     { provider: 'kinsta', name: 'Kinsta', url: 'https://kinsta.com/wordpress-hosting/?kaid=ZIGESENFSZNM' },
+    { provider: 'kinsta-apps', name: 'Kinsta Application Hosting', url: 'https://kinsta.com/application-hosting/?kaid=ZIGESENFSZNM' },
+    { provider: 'kinsta-woo', name: 'Kinsta WooCommerce Hosting', url: 'https://kinsta.com/wordpress-hosting/woocommerce/?kaid=ZIGESENFSZNM' },
   ];
   return providers.map((p) => ({
     params: { provider: p.provider },
