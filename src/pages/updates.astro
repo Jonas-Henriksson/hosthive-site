@@ -1,0 +1,155 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Editorial Updates & Changelog — HostHive" description="A transparent log of every content update, new review, and editorial change on HostHive. See how we keep our web hosting reviews current.">
+  <article class="updates-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Editorial Updates</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">Changelog</span>
+      <h1>Editorial Updates & Changelog</h1>
+      <div class="header-rule"></div>
+      <p class="page-intro">Transparency matters. This page logs every significant content update, new review, and editorial change on HostHive. We maintain this changelog so readers can verify that our web hosting reviews reflect the latest products, pricing, and test data — not stale information from months ago.</p>
+    </header>
+
+    <div class="updates-list">
+      <div class="update-entry">
+        <time class="update-date">April 9, 2026</time>
+        <div class="update-content">
+          <h3>Refreshed uptime monitoring data for all hosting reviews</h3>
+          <p>Updated 90-day uptime statistics from our independent monitoring. Three providers improved significantly after infrastructure upgrades in Q1.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">April 5, 2026</time>
+        <div class="update-content">
+          <h3>Added 4 new managed WordPress hosting reviews</h3>
+          <p>Published hands-on reviews for Rocket.net, Flavor Cloud, Convesio, and SpinupWP. Each tested with identical WordPress benchmarking sites.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">April 1, 2026</time>
+        <div class="update-content">
+          <h3>Updated pricing across all hosting provider reviews</h3>
+          <p>Several hosts changed renewal rates for Q2. Verified every introductory and renewal price and updated comparison tables across all reviews.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 26, 2026</time>
+        <div class="update-content">
+          <h3>Published VPS hosting comparison guide</h3>
+          <p>New guide benchmarking 10 VPS providers on CPU performance, I/O speed, network throughput, and value per dollar.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 19, 2026</time>
+        <div class="update-content">
+          <h3>Added server response time benchmarks</h3>
+          <p>Expanded performance testing to include TTFB measurements from 6 global locations for every reviewed hosting provider.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 13, 2026</time>
+        <div class="update-content">
+          <h3>Updated support quality scores</h3>
+          <p>Re-evaluated customer support across all providers with fresh ticket submissions and live chat tests. Scored response time and resolution quality.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 7, 2026</time>
+        <div class="update-content">
+          <h3>Launched HostHive with initial review coverage</h3>
+          <p>Published our first 18 in-depth hosting reviews covering shared, VPS, cloud, and managed WordPress hosting providers.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 3, 2026</time>
+        <div class="update-content">
+          <h3>Completed hands-on testing of top 10 shared hosting providers</h3>
+          <p>Finished initial benchmark cycle with load testing, uptime monitoring, and support evaluations across 10 major hosts.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">February 27, 2026</time>
+        <div class="update-content">
+          <h3>Established hosting performance benchmarks</h3>
+          <p>Created our standardized evaluation framework with automated uptime monitoring, load testing scripts, and TTFB measurement tools.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">February 22, 2026</time>
+        <div class="update-content">
+          <h3>Deployed monitoring infrastructure</h3>
+          <p>Set up independent uptime and performance monitoring across all reviewed hosting providers with 1-minute check intervals from 4 continents.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="commitment">
+      <h2>Our Editorial Commitment</h2>
+      <p>We review and update our content on a regular cycle. Product reviews are re-tested quarterly or whenever a manufacturer releases a significant update. Pricing is verified monthly. If you spot outdated information in any review, <a href="/about">contact our editorial team</a> and we will prioritize a correction.</p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .updates-page { max-width: var(--max-width); margin: 0 auto; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.8rem; color: var(--ink-400); margin-bottom: var(--space-xl);
+  }
+  .breadcrumb a { color: var(--ink-500); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .sep { color: var(--ink-300); }
+  .current { color: var(--ink-400); }
+
+  .page-header { margin-bottom: var(--space-2xl); animation: fadeInUp var(--duration-slow) var(--ease-out) both; }
+  .page-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); }
+  .page-header h1 { margin-top: var(--space-sm); margin-bottom: var(--space-md); }
+  .header-rule { height: 2px; width: 48px; background: var(--ink-950); margin-bottom: var(--space-lg); }
+  .page-intro { color: var(--ink-600); line-height: 1.75; max-width: 680px; }
+
+  .updates-list {
+    display: flex; flex-direction: column; gap: 0;
+    border-top: 1px solid var(--ink-100);
+  }
+
+  .update-entry {
+    display: grid; grid-template-columns: 160px 1fr; gap: var(--space-lg);
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--ink-100);
+    transition: background 0.15s ease-out;
+  }
+  .update-entry:hover { background: var(--ink-50, #fafafa); margin: 0 calc(-1 * var(--space-md)); padding-left: var(--space-md); padding-right: var(--space-md); border-radius: 6px; }
+
+  .update-date {
+    font-size: 0.8rem; font-weight: 600; color: var(--ink-400);
+    padding-top: 0.15rem; white-space: nowrap;
+  }
+
+  .update-content h3 {
+    font-size: 1rem; font-weight: 600; color: var(--ink-950);
+    margin: 0 0 0.35rem 0; line-height: 1.4;
+  }
+  .update-content p {
+    font-size: 0.9rem; color: var(--ink-600); line-height: 1.65; margin: 0;
+  }
+
+  .commitment {
+    margin-top: var(--space-3xl); padding-top: var(--space-xl);
+    border-top: 1px solid var(--ink-100);
+  }
+  .commitment h2 { margin-bottom: var(--space-md); }
+  .commitment p { color: var(--ink-600); line-height: 1.75; }
+  .commitment a { color: var(--ink-950); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+
+  @media (max-width: 640px) {
+    .update-entry { grid-template-columns: 1fr; gap: var(--space-xs); }
+  }
+</style>
