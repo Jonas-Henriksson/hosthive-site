@@ -22,6 +22,7 @@ export const siteConfig = {
     cloudways: { name: 'Cloudways', affiliateUrl: 'https://host-hive.net/go/cloudways', commission: 'Up to 125 per sale' },
     wpengine: { name: 'WP Engine', affiliateUrl: 'https://host-hive.net/go/wpengine', commission: '200+ per sale' },
     kinsta: { name: 'Kinsta', affiliateUrl: 'https://host-hive.net/go/kinsta', commission: 'Up to 500 per sale' },
+      contabo: { name: 'Contabo COM', affiliateUrl: 'https://host-hive.net/go/contabo', program: 'CJ', commission: 'EUR 0.00' },
   },
   social: {
     twitter: 'https://twitter.com/hosthive',
