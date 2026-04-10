@@ -3,7 +3,7 @@ interface Props {
   variant?: 'sidebar' | 'inline';
 }
 const { variant = 'inline' } = Astro.props;
-const API_URL = 'http://37.27.215.124:8485/subscribe';
+const API_URL = '/api/subscribe';
 const SITE_ID = 'hosthive';
 ---
 
@@ -18,7 +18,7 @@ const SITE_ID = 'hosthive';
       </>
     )}
     <p class="newsletter-desc">
-      Get our weekly hosting deal alert -- flash sales, new benchmark results, and migration tips that save you hours.
+      Get our weekly hosting deal alert — flash sales, new benchmark results, and migration tips that save you hours.
     </p>
     <form class="newsletter-form" id="newsletter-form">
       <div class="newsletter-input-row">
@@ -267,6 +267,12 @@ const SITE_ID = 'hosthive';
 
     .newsletter--inline .newsletter-title {
       font-size: 1.5rem;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    .newsletter--inline, .lead-magnet, .exit-overlay .exit-modal {
+      background: #0a0a0b !important;
+      color: white;
     }
   }
 </style>

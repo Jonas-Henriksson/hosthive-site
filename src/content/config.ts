@@ -18,6 +18,7 @@ const articles = defineCollection({
     ogImage: z.string().optional(),
     tableOfContents: z.boolean().optional().default(true),
     affiliateDisclosure: z.boolean().optional().default(true),
+    amazon: z.array(z.object({ product: z.string(), asin: z.string(), link: z.string() })).optional(),
     affiliateLinks: z.array(z.object({
       host: z.string(),
       url: z.string(),
