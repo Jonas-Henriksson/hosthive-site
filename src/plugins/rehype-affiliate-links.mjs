@@ -11,7 +11,8 @@ export function rehypeAffiliateLinks() {
           href.includes('amzn.to') ||
           href.includes('awin1.com') ||
           href.includes('awin.com/cread') ||
-          href.includes('siteground.com/index.htm?afcode')
+          href.includes('siteground.com/index.htm?afcode') ||
+          (href.includes('kinsta.com') && href.includes('kaid='))
         ) {
           node.properties.rel = 'nofollow sponsored external';
           node.properties.target = '_blank';
