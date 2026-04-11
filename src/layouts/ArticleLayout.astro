@@ -84,6 +84,9 @@ const reviewSchema = score ? {
   '@type': 'Product',
   name: title.replace(/best\s+/i, '').replace(/\s*\d{4}.*$/, '').trim() || title,
   description,
+  image: image || `${siteConfig.domain}/og-default.jpg`,
+  brand: { '@type': 'Brand', name: title.replace(/best\s+/i, '').replace(/\s*\d{4}.*$/, '').trim() || title },
+  offers: { '@type': 'Offer', availability: 'https://schema.org/OnlineOnly', price: '0', priceCurrency: 'USD', url: Astro.url.href, shippingDetails: { '@type': 'OfferShippingDetails', shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'USD' }, shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' }, deliveryTime: { '@type': 'ShippingDeliveryTime', handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' }, transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 5, unitCode: 'DAY' } } }, hasMerchantReturnPolicy: { '@type': 'MerchantReturnPolicy', applicableCountry: 'US', returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted' } },
   review: {
     '@type': 'Review',
     reviewRating: { '@type': 'Rating', ratingValue: starRating, bestRating: 5, worstRating: 1 },
