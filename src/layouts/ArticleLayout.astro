@@ -79,6 +79,7 @@ const faqSchema = faqPairs.length > 0 ? {
 
 // Product/Review schema for articles with scores (enables star ratings in Google)
 const starRating = score ? Math.round((score / 10) * 5 * 10) / 10 : null;
+// TODO: Refactor to use Article + ItemList schema for comparison/roundup articles (titles starting with 'best' or containing 'vs'). Product schema is only valid for individual product reviews. The title.replace regex also produces bad product names for roundups.
 const reviewSchema = score ? {
   '@context': 'https://schema.org',
   '@type': 'Product',
