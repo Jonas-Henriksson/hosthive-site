@@ -21,7 +21,8 @@ export function rehypeAffiliateLinks() {
           href.includes('ftjcfx.com') ||
           href.includes('lduhtrp.net') ||
           href.includes('tqlkg.com') ||
-          href.includes('awltovhc.com')
+          href.includes('awltovhc.com') ||
+          (href.includes('cloudways.com') && href.includes('id='))
         ) {
           node.properties.rel = 'nofollow sponsored external';
           node.properties.target = '_blank';
