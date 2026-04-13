@@ -14,10 +14,10 @@ winner: "Cloudways"
 amazon:
   - product: "Synology DS923+ NAS"
     asin: "B0BJZ2FJ1C"
-    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20"
   - product: "WD Red Plus 4TB NAS HDD"
     asin: "B08TZT7QS8"
-    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20"
 affiliateLinks:
   - host: Bluehost
     url: https://host-hive.net/go/bluehost
@@ -409,4 +409,4 @@ Start with staging. Test your deployment pipeline end-to-end before migrating pr
 
 ### Alternative: Self-Hosting Node.js on a NAS
 
-For internal tools, development servers, or home automation APIs that don't need public-facing reliability, running Node.js in Docker on a NAS is a legitimate option. A [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20) handles Docker containers well, and paired with [WD Red Plus 4TB drives](https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20) you get reliable storage without recurring hosting costs. Just don't kid yourself that this replaces proper hosting for anything user-facing — your home internet's upload speed and uptime aren't competing with a data center.
+For internal tools, development servers, or home automation APIs that don't need public-facing reliability, running Node.js in Docker on a NAS is a legitimate option. A [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20) handles Docker containers well, and paired with [WD Red Plus 4TB drives](https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20) you get reliable storage without recurring hosting costs. Just don't kid yourself that this replaces proper hosting for anything user-facing — your home internet's upload speed and uptime aren't competing with a data center.

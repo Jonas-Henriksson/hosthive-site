@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "WooCommerce Explained Book"
     asin: "B01N4QQ9ZV"
-    link: "https://www.amazon.com/dp/B01N4QQ9ZV?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B01N4QQ9ZV?tag=hosthive-20"
   - product: "E-commerce Security Guide"
     asin: "B08XYKQM4S"
-    link: "https://www.amazon.com/dp/B08XYKQM4S?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08XYKQM4S?tag=hosthive-20"
 ---
 
 # Best WooCommerce Hosting 2026: 8 Ecommerce Providers Performance Tested

@@ -17,7 +17,7 @@ affiliateLinks:
 amazon:
   - product: "WordPress: The Complete Guide"
     asin: "B08N5WRZVQ"
-    link: "https://www.amazon.com/dp/B08N5WRZVQ?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08N5WRZVQ?tag=hosthive-20"
 ---
 
 # WP Engine Review 2026: Premium WordPress Hosting Tested

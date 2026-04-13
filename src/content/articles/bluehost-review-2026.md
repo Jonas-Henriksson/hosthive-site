@@ -13,10 +13,10 @@ winner: "Bluehost"
 amazon:
   - product: "Synology DS923+ NAS"
     asin: "B0BJZ2FJ1C"
-    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20"
   - product: "WD Red Plus 4TB NAS HDD"
     asin: "B08TZT7QS8"
-    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20"
 affiliateLinks:
   - host: Bluehost
     url: https://host-hive.net/go/bluehost

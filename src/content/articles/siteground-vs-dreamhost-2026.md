@@ -22,10 +22,10 @@ affiliateLinks:
 amazon:
   - product: "APC UPS Battery Backup 600VA"
     asin: "B01FWAZEIU"
-    link: "https://www.amazon.com/dp/B01FWAZEIU?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B01FWAZEIU?tag=hosthive-20"
   - product: "Web Hosting For Dummies"
     asin: "B09V2L1MFG"
-    link: "https://www.amazon.com/dp/B09V2L1MFG?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B09V2L1MFG?tag=hosthive-20"
 ogImage: "/og/siteground-vs-dreamhost-2026.jpg"
 ---
 
@@ -312,7 +312,7 @@ For developers and anyone running a business site, SiteGround's staging availabi
 
 ## Server Hardware and Infrastructure
 
-If you're curious about the physical layer, there's a meaningful difference here. SiteGround's Google Cloud infrastructure means you're running on Google's custom Tensor Processing hardware with NVMe SSD storage, benefiting from Google's global network backbone. While a [battery backup for your home office](https://www.amazon.com/dp/B01FWAZEIU?tag=toolsradar05-20) is your concern, SiteGround's infrastructure redundancy is Google's concern — and they're better at it than most hosting companies' self-managed data centers.
+If you're curious about the physical layer, there's a meaningful difference here. SiteGround's Google Cloud infrastructure means you're running on Google's custom Tensor Processing hardware with NVMe SSD storage, benefiting from Google's global network backbone. While a [battery backup for your home office](https://www.amazon.com/dp/B01FWAZEIU?tag=hosthive-20) is your concern, SiteGround's infrastructure redundancy is Google's concern — and they're better at it than most hosting companies' self-managed data centers.
 
 DreamHost owns and operates their data centers, which gives them more control but less geographic reach. Their hardware is maintained in-house, which is respectable but doesn't match the redundancy guarantees of a hyperscale cloud provider.
 
@@ -328,7 +328,7 @@ For hosting newcomers trying to understand these infrastructure differences, [ou
 
 For more managed WordPress options beyond these two, our [managed WordPress hosting comparison](/best-managed-wordpress-hosting-2026) covers premium providers including WP Engine and Kinsta. And if you're deciding between SiteGround and another budget option, our [SiteGround vs Hostinger comparison](/siteground-vs-hostinger-2026) covers that matchup in detail.
 
-If you want to learn more about web hosting before committing, Peter Pollock's [Web Hosting For Dummies](https://www.amazon.com/dp/B09V2L1MFG?tag=toolsradar05-20) is a solid primer for understanding what you're actually buying.
+If you want to learn more about web hosting before committing, Peter Pollock's [Web Hosting For Dummies](https://www.amazon.com/dp/B09V2L1MFG?tag=hosthive-20) is a solid primer for understanding what you're actually buying.
 
 ## Frequently Asked Questions
 

@@ -13,10 +13,10 @@ winner: "SiteGround"
 amazon:
   - product: "Synology DS923+ NAS"
     asin: "B0BJZ2FJ1C"
-    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20"
   - product: "WD Red Plus 4TB NAS HDD"
     asin: "B08TZT7QS8"
-    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20"
 affiliateLinks:
   - host: Bluehost
     url: https://host-hive.net/go/bluehost
@@ -325,7 +325,7 @@ Quality shared hosting costs **$3-$10/month** for most sites. Managed WordPress 
 
 ### What about self-hosting on a NAS?
 
-**A NAS (Network Attached Storage) is a viable alternative for developers and hobbyists** who want full control without recurring hosting fees. The [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20) can run WordPress, Node.js, and Docker containers with its built-in web server. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20) for reliable storage. Self-hosting is not recommended for business-critical sites due to uptime and bandwidth limitations, but it is excellent for development, staging, and personal projects.
+**A NAS (Network Attached Storage) is a viable alternative for developers and hobbyists** who want full control without recurring hosting fees. The [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20) can run WordPress, Node.js, and Docker containers with its built-in web server. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20) for reliable storage. Self-hosting is not recommended for business-critical sites due to uptime and bandwidth limitations, but it is excellent for development, staging, and personal projects.
 
 ### Do I need SSL and CDN with my hosting?
 

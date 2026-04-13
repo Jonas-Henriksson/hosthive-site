@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "Web Hosting Business Complete Guide Book"
     asin: "B08XJLM2QR"
-    link: "https://www.amazon.com/dp/B08XJLM2QR?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08XJLM2QR?tag=hosthive-20"
   - product: "Building WordPress Websites Book"
     asin: "B07GDJQVPK"
-    link: "https://www.amazon.com/dp/B07GDJQVPK?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B07GDJQVPK?tag=hosthive-20"
 ---
 
 # What is Shared Hosting? Complete 2026 Guide to Shared Web Hosting

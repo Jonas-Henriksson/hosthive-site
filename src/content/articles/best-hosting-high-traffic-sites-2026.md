@@ -17,7 +17,7 @@ affiliateLinks:
 amazon:
   - product: "New Relic Application Performance Monitoring"
     asin: "B07V2QS2ZH"
-    link: "https://www.amazon.com/dp/B07V2QS2ZH?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B07V2QS2ZH?tag=hosthive-20"
 ---
 
 # Best Hosting for High Traffic Sites 2026: 7 Providers That Handle Millions of Visitors

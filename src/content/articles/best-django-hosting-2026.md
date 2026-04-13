@@ -14,10 +14,10 @@ winner: "Cloudways"
 amazon:
   - product: "Synology DS923+ NAS"
     asin: "B0BJZ2FJ1C"
-    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20"
   - product: "WD Red Plus 4TB NAS HDD"
     asin: "B08TZT7QS8"
-    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20"
 affiliateLinks:
   - host: Bluehost
     url: https://host-hive.net/go/bluehost
@@ -374,4 +374,4 @@ The modern approach: push to a Git repository, let your hosting platform or CI/C
 
 ### Self-Hosting Django on a NAS
 
-For development environments, internal tools, or staging setups, a [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20) can run Django via Docker with PostgreSQL and Redis locally. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20) in a RAID configuration for data protection. This works well for CI/CD pipelines, staging environments, and internal dashboards where you want to eliminate recurring hosting costs entirely. Don't use this for public-facing production — your home internet's upload speed and reliability aren't hosting-grade.
+For development environments, internal tools, or staging setups, a [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20) can run Django via Docker with PostgreSQL and Redis locally. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20) in a RAID configuration for data protection. This works well for CI/CD pipelines, staging environments, and internal dashboards where you want to eliminate recurring hosting costs entirely. Don't use this for public-facing production — your home internet's upload speed and reliability aren't hosting-grade.

@@ -17,7 +17,7 @@ affiliateLinks:
 amazon:
   - product: "Business Email Setup and Management Guide"
     asin: "B08XYLQJPN"
-    link: "https://www.amazon.com/dp/B08XYLQJPN?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08XYLQJPN?tag=hosthive-20"
 ---
 
 # Best Web Hosting for Small Business 2026: 8 Providers Tested for Growth

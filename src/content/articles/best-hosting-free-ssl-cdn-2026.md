@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "SSL and TLS Designing and Building Secure Systems"
     asin: "B00BWQHH1Q"
-    link: "https://www.amazon.com/dp/B00BWQHH1Q?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B00BWQHH1Q?tag=hosthive-20"
   - product: "Network Security Assessment: Know Your Network"
     asin: "B071JBQZPX"
-    link: "https://www.amazon.com/dp/B071JBQZPX?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B071JBQZPX?tag=hosthive-20"
 ---
 
 # Best Hosting with Free SSL and CDN 2026: 7 Providers Tested for Security & Speed

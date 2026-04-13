@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "AWS Certified Solutions Architect Study Guide"
     asin: "B08B5ZQZX9"
-    link: "https://www.amazon.com/dp/B08B5ZQZX9?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08B5ZQZX9?tag=hosthive-20"
   - product: "Google Cloud Platform in Action"
     asin: "1617293520"
-    link: "https://www.amazon.com/dp/1617293520?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/1617293520?tag=hosthive-20"
 ---
 
 # Best Cloud Hosting 2026: AWS vs Google Cloud vs Managed Alternatives

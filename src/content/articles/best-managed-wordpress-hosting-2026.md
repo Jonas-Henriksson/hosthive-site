@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "WordPress Development Book"
     asin: "B07BKTD8W7"
-    link: "https://www.amazon.com/dp/B07BKTD8W7?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B07BKTD8W7?tag=hosthive-20"
   - product: "Web Performance Monitoring Book"
     asin: "B08XQJK2P4"
-    link: "https://www.amazon.com/dp/B08XQJK2P4?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08XQJK2P4?tag=hosthive-20"
 ---
 
 # Best Managed WordPress Hosting 2026: 8 Premium Providers Tested

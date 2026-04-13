@@ -17,10 +17,10 @@ affiliateLinks:
 amazon:
   - product: "Web Hosting For Dummies"
     asin: "B08XQXM2QS"
-    link: "https://www.amazon.com/dp/B08XQXM2QS?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08XQXM2QS?tag=hosthive-20"
   - product: "WordPress All-in-One For Dummies"
     asin: "B08T7HQZQX"
-    link: "https://www.amazon.com/dp/B08T7HQZQX?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08T7HQZQX?tag=hosthive-20"
 ---
 
 # Bluehost vs SiteGround 2026: Performance, Pricing & Features Compared

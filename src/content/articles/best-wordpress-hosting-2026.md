@@ -13,10 +13,10 @@ winner: "WP Engine"
 amazon:
   - product: "Synology DS923+ NAS"
     asin: "B0BJZ2FJ1C"
-    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20"
   - product: "WD Red Plus 4TB NAS HDD"
     asin: "B08TZT7QS8"
-    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20"
+    link: "https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20"
 affiliateLinks:
   - host: Bluehost
     url: https://host-hive.net/go/bluehost
@@ -369,6 +369,6 @@ WordPress.com is a hosted platform — you get a site but limited control over p
 
 ### Self-Hosting WordPress on a NAS
 
-For developers who want full control (and full responsibility), you can run WordPress on a NAS like the [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=toolsradar05-20) using Docker or its built-in Web Station package. It runs MariaDB/MySQL and PHP natively, making it a capable host for personal or staging sites. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=toolsradar05-20) in a RAID configuration for drive-failure protection.
+For developers who want full control (and full responsibility), you can run WordPress on a NAS like the [Synology DS923+](https://www.amazon.com/dp/B0BJZ2FJ1C?tag=hosthive-20) using Docker or its built-in Web Station package. It runs MariaDB/MySQL and PHP natively, making it a capable host for personal or staging sites. Pair it with [WD Red Plus 4TB NAS drives](https://www.amazon.com/dp/B08TZT7QS8?tag=hosthive-20) in a RAID configuration for drive-failure protection.
 
 The trade-offs are real though: you're responsible for SSL (Let's Encrypt with auto-renewal), backups (off-site — a backup on the same NAS isn't a backup), security updates, and uptime. Your home internet connection is your SLA — there's no 99.9% guarantee when your ISP has a bad day. It eliminates monthly hosting fees but introduces maintenance time that isn't free either. Best suited for dev/staging environments, internal tools, or personal projects where occasional downtime isn't catastrophic.
