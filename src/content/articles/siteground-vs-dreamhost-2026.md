@@ -41,7 +41,7 @@ This comparison exists because "reliability" in hosting is more than an uptime p
 >
 > **Winner for value: DreamHost.** More generous storage and bandwidth, transparent renewal pricing (no sticker shock), and a rare 97-day money-back guarantee that shows confidence in their product.
 >
-> **Budget alternative: Hostinger.** If neither fits your budget, [check our budget hosting roundup](/best-cheap-hosting-2026) for options under 3/month.
+> **Budget alternative: Hostinger.** If neither fits your budget, [check our budget hosting roundup](/best-cheap-hosting-2026) for options under $3/month.
 
 ## How We Tested These Hosts
 
@@ -54,8 +54,8 @@ We deployed identical WordPress sites on both SiteGround's GrowBig plan and Drea
 | Feature | SiteGround (GrowBig) | DreamHost (DreamPress) |
 |---------|---------------------|----------------------|
 | **Best For** | WordPress performance & support | Value-conscious site owners |
-| **Starting Price** | 6.69/mo (intro) | 2.95/mo (Shared Starter) |
-| **Renewal Price** | 24.99/mo | 6.99/mo (Shared) |
+| **Starting Price** | $6.69/mo (intro) | $2.95/mo (Shared Starter) |
+| **Renewal Price** | $24.99/mo | $6.99/mo (Shared) |
 | **Measured Uptime** | ~99.98% | ~99.93% |
 | **Avg TTFB (US East)** | ~320ms | ~480ms |
 | **Free Domain** | No | Yes (annual plans) |
@@ -83,15 +83,15 @@ SiteGround uses Nginx as a reverse proxy with their custom SuperCacher system �
 
 | Plan | Intro Price | Renewal Price | Sites | Storage | Key Features |
 |------|------------|---------------|-------|---------|-------------|
-| **StartUp** | 3.99/mo | 17.99/mo | 1 | 10 GB | Basic caching, free SSL, daily backups |
-| **GrowBig** | 6.69/mo | 24.99/mo | Unlimited | 20 GB | Staging, Memcached, on-demand backup |
-| **GoGeek** | 10.69/mo | 39.99/mo | Unlimited | 40 GB | Git, white-label, priority support |
+| **StartUp** | $3.99/mo | $17.99/mo | 1 | 10 GB | Basic caching, free SSL, daily backups |
+| **GrowBig** | $6.69/mo | $24.99/mo | Unlimited | 20 GB | Staging, Memcached, on-demand backup |
+| **GoGeek** | $10.69/mo | $39.99/mo | Unlimited | 40 GB | Git, white-label, priority support |
 
-The elephant in the room: **SiteGround's renewal pricing is steep.** Going from 6.69/mo to 24.99/mo is a 3.7x increase, and that catches people off guard. The intro pricing requires a 12-month minimum commitment (or 24/36 months for the lowest rate). Monthly billing isn't an option on shared plans.
+The elephant in the room: **SiteGround's renewal pricing is steep.** Going from $6.69/mo to $24.99/mo is a 3.7x increase, and that catches people off guard. The intro pricing requires a 12-month minimum commitment (or 24/36 months for the lowest rate). Monthly billing isn't an option on shared plans.
 
 Storage limits are tight by 2026 standards — 10 GB on StartUp is manageable for a single site, but if you're running WooCommerce with product images, you'll outgrow it. The 20 GB on GrowBig gives more breathing room, though it's still modest compared to DreamHost's offerings.
 
-No free domain included — SiteGround charges around 17.99/year for domain registration, which adds to the total cost. Most competitors bundle a free domain for the first year.
+No free domain included — SiteGround charges around $17.99/year for domain registration, which adds to the total cost. Most competitors bundle a free domain for the first year.
 
 ### Support Quality
 
@@ -126,7 +126,7 @@ For more detail on backup-focused hosting, see our [best hosting with daily back
 
 - **Renewal pricing jumps dramatically** — 3.7x on GrowBig is hard to justify for some budgets
 - **Storage limits are tight** — 10 GB on StartUp is constraining for media-heavy sites
-- **No free domain** — adds roughly 18/year to your effective cost
+- **No free domain** — adds roughly $18/year to your effective cost
 - **No monthly billing** on shared plans — minimum 12-month commitment required
 - **PHP worker limits on StartUp** can throttle WooCommerce sites with moderate traffic
 
@@ -148,7 +148,7 @@ The difference between 99.98% and 99.93% sounds trivial in percentage terms, but
 
 TTFB from US East Coast test points averaged **460-510ms** on DreamHost's shared hosting. That's acceptable, not impressive. From the West Coast, numbers improved to around **380-420ms** since DreamHost's primary data centers are in Ashburn, Virginia and Hillsboro, Oregon. International numbers were weaker — **600-750ms** from European test points, which is where SiteGround's multi-region presence pulls significantly ahead.
 
-DreamHost's DreamPress (managed WordPress) tier performed better, with TTFB dropping to around **350-400ms** domestically thanks to built-in Varnish caching and PHP OPcache. But DreamPress starts at 16.95/mo, which puts it in a different pricing bracket entirely.
+DreamHost's DreamPress (managed WordPress) tier performed better, with TTFB dropping to around **350-400ms** domestically thanks to built-in Varnish caching and PHP OPcache. But DreamPress starts at $16.95/mo, which puts it in a different pricing bracket entirely.
 
 Under load testing, DreamHost's Shared Unlimited plan handled **60-70 concurrent users** before response times started climbing past 1 second. At 100 concurrent users, we saw sporadic 503 errors — the server was hitting resource limits. This is typical for shared hosting, but SiteGround handled the same test more gracefully. DreamHost's shared environment doesn't isolate resources as effectively as SiteGround's container-based approach.
 
@@ -158,17 +158,17 @@ DreamHost runs Apache with mod_php on shared hosting, which is inherently slower
 
 | Plan | Intro Price | Renewal Price | Sites | Storage | Key Features |
 |------|------------|---------------|-------|---------|-------------|
-| **Shared Starter** | 2.95/mo (annual) | 6.99/mo | 1 | 50 GB SSD | Free domain, free SSL, WP pre-installed |
-| **Shared Unlimited** | 5.95/mo (annual) | 12.99/mo | Unlimited | Unlimited* | Free domain, email hosting, unlimited traffic |
-| **DreamPress** | 16.95/mo | 16.95/mo | 1 | 30 GB SSD | Managed WP, Jetpack free, staging |
-| **DreamPress Plus** | 24.95/mo | 24.95/mo | 1 | 60 GB SSD | Unlimited CDN, on-demand backups |
-| **VPS Basic** | 13.75/mo | 13.75/mo | Unlimited | 30 GB SSD | Full root access, scalable RAM |
+| **Shared Starter** | $2.95/mo (annual) | $6.99/mo | 1 | 50 GB SSD | Free domain, free SSL, WP pre-installed |
+| **Shared Unlimited** | $5.95/mo (annual) | $12.99/mo | Unlimited | Unlimited* | Free domain, email hosting, unlimited traffic |
+| **DreamPress** | $16.95/mo | $16.95/mo | 1 | 30 GB SSD | Managed WP, Jetpack free, staging |
+| **DreamPress Plus** | $24.95/mo | $24.95/mo | 1 | 60 GB SSD | Unlimited CDN, on-demand backups |
+| **VPS Basic** | $13.75/mo | $13.75/mo | Unlimited | 30 GB SSD | Full root access, scalable RAM |
 
 *DreamHost's "Unlimited" storage comes with a fair use policy — they don't publish a hard cap, but accounts using excessive inodes (typically over 200,000 files) may be asked to upgrade. In practice, this is generous enough for most sites, but don't plan to use it as a file server.
 
-Here's what stands out: **DreamHost's renewal pricing is remarkably fair.** Shared Starter goes from 2.95/mo to 6.99/mo — a 2.4x increase. Compare that to SiteGround's 3.7x jump. DreamPress doesn't change price at all between intro and renewal. In a hosting market full of bait-and-switch pricing, this is refreshing.
+Here's what stands out: **DreamHost's renewal pricing is remarkably fair.** Shared Starter goes from $2.95/mo to $6.99/mo — a 2.4x increase. Compare that to SiteGround's 3.7x jump. DreamPress doesn't change price at all between intro and renewal. In a hosting market full of bait-and-switch pricing, this is refreshing.
 
-DreamHost also includes a **free domain** on annual plans and supports **monthly billing** on most plans — you're not locked into a 12-month commitment to get a reasonable rate. The Shared Starter plan at monthly billing is 4.95/mo, still competitive.
+DreamHost also includes a **free domain** on annual plans and supports **monthly billing** on most plans — you're not locked into a 12-month commitment to get a reasonable rate. The Shared Starter plan at monthly billing is $4.95/mo, still competitive.
 
 The **97-day money-back guarantee** is the longest in the industry. Most hosts offer 30 days. SiteGround offers 30 days. DreamHost gives you over three months to decide. That's confidence in their product.
 
@@ -202,7 +202,7 @@ This is an area where SiteGround clearly wins with their 30-day retention and st
 - **Generous storage** — 50 GB on the starter plan, unlimited on Shared Unlimited
 - **97-day money-back guarantee** — the longest in the industry by a wide margin
 - **Monthly billing available** — no forced annual commitment
-- **Free domain included** on annual plans, saving roughly 15-18/year
+- **Free domain included** on annual plans, saving roughly 15-$18/year
 - **Independent ownership** — no conglomerate, no brand consolidation risk, no Newfold Digital portfolio behavior
 
 ### Cons
@@ -256,7 +256,7 @@ SiteGround also includes email on all plans, but the experience is similar. Both
 
 Both hosts provide **free Let's Encrypt SSL certificates** — this is table stakes in 2026. SiteGround's SSL auto-renews without intervention. DreamHost's SSL sometimes requires a manual toggle during setup, as we experienced during migration.
 
-SiteGround includes their **SG Security** plugin for WordPress (free) and offers SiteGround Site Scanner (paid add-on at 2.49/mo) for malware monitoring. DreamHost includes **DreamShield** malware scanning as a paid add-on at 3/mo on shared plans, free on DreamPress.
+SiteGround includes their **SG Security** plugin for WordPress (free) and offers SiteGround Site Scanner (paid add-on at $2.49/mo) for malware monitoring. DreamHost includes **DreamShield** malware scanning as a paid add-on at $3/mo on shared plans, free on DreamPress.
 
 For broader security and SSL comparisons, our [hosting with free SSL and CDN guide](/best-hosting-free-ssl-cdn-2026) covers more options.
 
@@ -296,7 +296,7 @@ For broader security and SSL comparisons, our [hosting with free SSL and CDN gui
 | **Mid Shared** | 80.28 | 299.88 | 71.40 | 155.88 |
 | **Top Shared/Managed** | 128.28 | 479.88 | 203.40 | 203.40 |
 
-The year-two jump is where SiteGround's pricing strategy becomes painful. SiteGround's GrowBig renewal (299.88/year) costs nearly the same as DreamHost's DreamPress (203.40/year), which includes managed WordPress features, Varnish caching, and Jetpack Professional — arguably a better deal at renewal time.
+The year-two jump is where SiteGround's pricing strategy becomes painful. SiteGround's GrowBig renewal ($299.88/year) costs nearly the same as DreamHost's DreamPress ($203.40/year), which includes managed WordPress features, Varnish caching, and Jetpack Professional — arguably a better deal at renewal time.
 
 If you plan to stay on shared hosting long-term (2+ years), DreamHost's math works out significantly better. If you're willing to pay the premium and value SiteGround's performance advantage, the cost is justifiable for revenue-generating sites.
 
@@ -308,9 +308,9 @@ Staging is where you test changes before pushing them live — essential for any
 
 **SiteGround** offers one-click staging on GrowBig and GoGeek plans. The staging environment is a full copy of your site on a subdomain. You can push changes from staging to live with one click. It works well, and we've used it to test plugin updates and theme changes without issues. Our [staging environment hosting guide](/best-hosting-staging-environment-2026) covers this feature in detail.
 
-**DreamHost** offers staging only on DreamPress plans (16.95/mo+). Their shared hosting plans don't include staging at all. The DreamPress staging tool works, but it's slower to create a staging copy — our test took about 5 minutes versus SiteGround's near-instant copy.
+**DreamHost** offers staging only on DreamPress plans ($16.95/mo+). Their shared hosting plans don't include staging at all. The DreamPress staging tool works, but it's slower to create a staging copy — our test took about 5 minutes versus SiteGround's near-instant copy.
 
-For developers and anyone running a business site, SiteGround's staging availability at the 6.69/mo tier is a significant advantage over DreamHost's 16.95/mo minimum for the same feature.
+For developers and anyone running a business site, SiteGround's staging availability at the $6.69/mo tier is a significant advantage over DreamHost's $16.95/mo minimum for the same feature.
 
 ## Server Hardware and Infrastructure
 
@@ -344,7 +344,7 @@ DreamHost is an officially recommended WordPress host and has been for years. Th
 
 ### Why is SiteGround's renewal price so much higher?
 
-SiteGround uses aggressive intro pricing to acquire customers, then recoups on renewals — a common hosting industry tactic. Their GrowBig plan jumps from 6.69/mo to 24.99/mo, a 3.7x increase. This pays for the Google Cloud infrastructure that gives them their performance edge. DreamHost's more moderate renewal increases (roughly 2.4x) reflect their lower-cost self-managed infrastructure.
+SiteGround uses aggressive intro pricing to acquire customers, then recoups on renewals — a common hosting industry tactic. Their GrowBig plan jumps from $6.69/mo to $24.99/mo, a 3.7x increase. This pays for the Google Cloud infrastructure that gives them their performance edge. DreamHost's more moderate renewal increases (roughly 2.4x) reflect their lower-cost self-managed infrastructure.
 
 ### Does DreamHost offer phone support?
 

@@ -241,7 +241,7 @@ It's good for *beginner* WordPress hosting. The installation process is the smoo
 
 ### How much does Bluehost really cost after the introductory period?
 
-Substantially more. The Basic plan jumps from $2.75/month to around $11.99/month at renewal — roughly a 4x increase. Plus and Choice Plus plans follow similar patterns. Add the backup service, domain privacy, and security scanning that competitors include free, and you're looking at $15–25/month for what you thought was $5/month hosting. Always calculate your 3-year total cost, not the intro rate.
+Substantially more. The Basic plan jumps from $2.75/month to around $11.99/month at renewal — roughly a 4x increase. Plus and Choice Plus plans follow similar patterns. Add the backup service, domain privacy, and security scanning that competitors include free, and you're looking at $15–$25/month for what you thought was $5/month hosting. Always calculate your 3-year total cost, not the intro rate.
 
 ### Does Bluehost offer free website migration?
 

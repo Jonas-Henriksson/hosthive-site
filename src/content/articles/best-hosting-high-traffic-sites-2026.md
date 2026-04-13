@@ -105,7 +105,7 @@ WP Engine was one of the first managed WordPress hosts and they've built a solid
 
 AWS is the default answer for "we need to handle any amount of traffic" — and for good reason. EC2 instances, Elastic Load Balancing, Auto Scaling Groups, CloudFront CDN, RDS managed databases — the building blocks are all there. Netflix, Airbnb, and most of the internet runs on AWS infrastructure.
 
-**Pricing:** This is where AWS gets complicated. A t3.medium EC2 instance runs about $30/month. Add an RDS database ($15-100/month), a load balancer ($16/month + data processing fees), CloudFront CDN ($0.085/GB), and S3 storage ($0.023/GB). A realistic high-traffic setup typically runs $100-500/month, but bills can spike dramatically during traffic surges because you're paying for every resource consumed. Budget alerts are essential, not optional.
+**Pricing:** This is where AWS gets complicated. A t3.medium EC2 instance runs about $30/month. Add an RDS database ($15-$100/month), a load balancer ($16/month + data processing fees), CloudFront CDN ($0.085/GB), and S3 storage ($0.023/GB). A realistic high-traffic setup typically runs $100-$500/month, but bills can spike dramatically during traffic surges because you're paying for every resource consumed. Budget alerts are essential, not optional.
 
 **Performance:** When properly configured, AWS infrastructure is as good as it gets. Auto Scaling Groups can spin up new EC2 instances within 60-90 seconds of demand increases. CloudFront has excellent global coverage. The problem is "properly configured" — misconfigured AWS setups are common and perform worse than a $14/month Cloudways server.
 
@@ -119,7 +119,7 @@ AWS is the default answer for "we need to handle any amount of traffic" — and 
 
 Google Cloud's premium tier network routes traffic through Google's private fiber backbone rather than the public internet. For sites with global audiences, this translates to measurably lower latency for international visitors compared to providers routing over public peering.
 
-**Pricing:** Compute Engine n1-standard-1 starts around $24/month. Realistic high-traffic setups with Load Balancer, Cloud CDN, and Cloud SQL run $100-500/month. Google offers sustained use discounts (automatic price reductions for instances running more than 25% of the month) and committed use discounts for 1-3 year terms.
+**Pricing:** Compute Engine n1-standard-1 starts around $24/month. Realistic high-traffic setups with Load Balancer, Cloud CDN, and Cloud SQL run $100-$500/month. Google offers sustained use discounts (automatic price reductions for instances running more than 25% of the month) and committed use discounts for 1-3 year terms.
 
 **Performance:** Google Cloud's premium tier networking delivers noticeably faster response times for geographically distributed traffic compared to standard tier networking on other providers. Their Global Load Balancer is genuinely impressive — a single anycast IP that automatically routes to the nearest healthy backend.
 
@@ -139,7 +139,7 @@ Liquid Web's managed VPS and dedicated servers give you guaranteed resources —
 
 **What's genuinely good:** Their support team — "Heroic Support" — actually deserves the name. They commit to initial response within 59 seconds and the staff can handle real server administration tasks, not just ticket routing. For businesses without in-house sysadmins, having managed dedicated resources with responsive expert support is genuinely valuable. Cloudflare CDN integration is included.
 
-**Where it falls short:** $169/month is a lot of money for a VPS, even a managed one. You can get comparable raw resources for $40-80/month from cloud providers — you're paying a significant premium for management. Provisioning takes 24-48 hours, compared to minutes on cloud platforms. Scaling means migrating to a bigger server (with potential downtime), not auto-scaling. And for traffic spikes specifically — the exact scenario this article is about — dedicated servers are the wrong architecture. You're paying for peak capacity 24/7 even when traffic is low. Liquid Web is a better fit for steady-state high-traffic than for handling spikes.
+**Where it falls short:** $169/month is a lot of money for a VPS, even a managed one. You can get comparable raw resources for $40-$80/month from cloud providers — you're paying a significant premium for management. Provisioning takes 24-48 hours, compared to minutes on cloud platforms. Scaling means migrating to a bigger server (with potential downtime), not auto-scaling. And for traffic spikes specifically — the exact scenario this article is about — dedicated servers are the wrong architecture. You're paying for peak capacity 24/7 even when traffic is low. Liquid Web is a better fit for steady-state high-traffic than for handling spikes.
 
 [Start with Liquid Web](https://host-hive.net/go/liquidweb)
 
@@ -283,7 +283,7 @@ Not reliably. Shared hosting works by oversubscribing server resources across hu
 
 ### How much does high traffic hosting cost?
 
-Realistically, $35-200/month for managed WordPress hosting, $100-500/month for properly configured cloud infrastructure, or $169-400/month for managed dedicated servers. Be wary of any estimate under $30/month for "high traffic hosting" — either the definition of high traffic is generous, or the renewal pricing hasn't been mentioned. Cloud providers offer the most predictable scaling costs, but require expertise to manage.
+Realistically, $35-$200/month for managed WordPress hosting, $100-$500/month for properly configured cloud infrastructure, or $169-$400/month for managed dedicated servers. Be wary of any estimate under $30/month for "high traffic hosting" — either the definition of high traffic is generous, or the renewal pricing hasn't been mentioned. Cloud providers offer the most predictable scaling costs, but require expertise to manage.
 
 ### What's the difference between VPS and cloud hosting for high traffic?
 

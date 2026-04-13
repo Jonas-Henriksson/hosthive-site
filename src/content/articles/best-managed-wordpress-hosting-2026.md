@@ -106,7 +106,7 @@ No intro-to-renewal price jump — what you see is what you pay. That's refreshi
 **What Doesn't:**
 - Visit-based pricing is the big gotcha. A bot crawl, a Reddit hug of death, or a successful marketing campaign can blow through your visit allocation and trigger overage charges. There's no "burst" — you just pay more. For sites with unpredictable traffic, this model is stressful.
 - $35/month for a single site is steep when SiteGround offers managed features at $14.99. You're paying for Google Cloud infrastructure, but many sites won't notice the difference.
-- No email hosting, same as WP Engine. Budget another $5-10/month for Google Workspace or similar.
+- No email hosting, same as WP Engine. Budget another $5-$10/month for Google Workspace or similar.
 - 10GB storage on the Starter plan is tight. Two sites on the Pro plan at $70/month means $35 per site — the premium adds up fast.
 
 [Get Started with Kinsta](https://host-hive.net/go/kinsta) — 30-day money-back guarantee.
@@ -181,7 +181,7 @@ Pressable (owned by Automattic, the company behind WordPress.com) takes a straig
 - Enterprise: $200/month — 100 sites, 200GB storage, 750,000 monthly visits
 
 **What Works Well:**
-- Jetpack Premium included on all plans is a genuine cost saver — that's $10-20/month you'd pay separately elsewhere, covering backups, security scanning, and performance tools.
+- Jetpack Premium included on all plans is a genuine cost saver — that's $10-$20/month you'd pay separately elsewhere, covering backups, security scanning, and performance tools.
 - The Automattic connection means deep WordPress integration. These people literally make WordPress.
 - Support staff are WordPress specialists, not general hosting agents reading from scripts.
 - Free site migrations on all plans, handled by their team.
@@ -265,7 +265,7 @@ Flywheel (now owned by WP Engine) was built for creative agencies, and it shows 
 - The dashboard is clean and well-designed — unsurprising given the target audience.
 
 **What Doesn't:**
-- Performance is the weakest in this roundup. Page load times and server response were consistently behind every other host we tested. For a $15-25/month starting price, the speed doesn't justify the cost.
+- Performance is the weakest in this roundup. Page load times and server response were consistently behind every other host we tested. For a $15-$25/month starting price, the speed doesn't justify the cost.
 - Since WP Engine acquired Flywheel, there's been brand consolidation and feature overlap. It's unclear how long Flywheel will remain a distinct product versus being folded into WP Engine's agency tier. This is worth considering before building your agency workflow around Flywheel-specific features.
 - 5GB storage on the Tiny plan is barely enough for a single WordPress site with a handful of images. You'll realistically need the Starter plan at minimum.
 - Support quality was inconsistent in our testing — some agents were sharp, others clearly working from scripts.
@@ -305,7 +305,7 @@ Let's talk about what these hosts actually cost, not what the landing page says.
 
 **Visit-based vs resource-based billing:** This matters more than most reviews mention. Visit-based hosts (Kinsta, SiteGround, Pressable, Flywheel) charge based on traffic volume. A bot crawl or traffic spike can push you into overage territory. Resource-based hosts (Cloudways, WP Engine, Liquid Web) give you fixed server resources — if your server can handle the load, you don't pay extra.
 
-**The email gap:** Not a single premium managed WordPress host on this list includes email hosting. Budget $5-12/month per user for Google Workspace, Microsoft 365, or a dedicated email provider. This is an industry-wide blind spot that adds real cost.
+**The email gap:** Not a single premium managed WordPress host on this list includes email hosting. Budget $5-$12/month per user for Google Workspace, Microsoft 365, or a dedicated email provider. This is an industry-wide blind spot that adds real cost.
 
 ## What Actually Matters: Performance Observations
 
@@ -398,7 +398,7 @@ The practical differences that matter: managed hosts auto-update WordPress core 
 
 ### How much should I expect to pay for quality managed WordPress hosting?
 
-Plan for $25-40/month at renewal rates for a single business site. Intro pricing at $12-20/month exists but isn't sustainable — budget for what you'll pay in Year 2 and beyond.
+Plan for $25-$40/month at renewal rates for a single business site. Intro pricing at $12-$20/month exists but isn't sustainable — budget for what you'll pay in Year 2 and beyond.
 
 The sweet spot for most sites is SiteGround's GrowBig ($39.99/month at renewal) or WP Engine's Startup ($30/month at renewal). Premium performance from Kinsta starts at $35/month with no intro discount. Enterprise hosting from Pagely begins at $199/month and scales from there.
 
@@ -418,4 +418,4 @@ If you can configure Nginx, tune PHP-FPM workers, and set up Redis caching, clou
 
 ### Are there any downsides to managed WordPress hosting?
 
-Yes. You lose plugin freedom (banned plugins lists are real), you pay more than shared or self-managed hosting, you often can't access server-level configuration, and you're dependent on the host's update schedule. Some managed hosts also limit your ability to run non-WordPress applications on the same server. And email hosting is never included — a consistent gap across the entire category that adds $5-12/month per user to your real costs.
+Yes. You lose plugin freedom (banned plugins lists are real), you pay more than shared or self-managed hosting, you often can't access server-level configuration, and you're dependent on the host's update schedule. Some managed hosts also limit your ability to run non-WordPress applications on the same server. And email hosting is never included — a consistent gap across the entire category that adds $5-$12/month per user to your real costs.

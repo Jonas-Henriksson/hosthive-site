@@ -240,7 +240,7 @@ Free site migration is included and competently executed in our experience.
 
 The base Startup plan is unremarkable. At $2.99/mo on Apache with no free domain, it's competing with Hostinger on price but without Hostinger's better renewal pricing or larger storage allocations. The speed advantage that defines A2's brand only kicks in at the Turbo tier.
 
-No free domain on any plan means you're paying $10-15/year for domain registration on top of hosting costs. That adds up, especially compared to hosts that include it.
+No free domain on any plan means you're paying $10-$15/year for domain registration on top of hosting costs. That adds up, especially compared to hosts that include it.
 
 Support response times can be slow during busy periods. We've waited 20+ minutes on live chat during evenings and weekends. Technical competence varies — some agents understand server configuration, others stick to scripted responses.
 
@@ -304,7 +304,7 @@ No phone support on the Core (entry) plan is a notable omission for a host marke
 
 The core difference: on shared hosting, your site competes for resources with every other site on the server. On a VPS, you get guaranteed CPU cores, RAM, and storage that nobody else can touch.
 
-Shared hosting costs $3–13/month. Entry-level VPS starts around $5–6/month from providers like Hetzner or Vultr (unmanaged) or $15–25/month for managed VPS with a control panel and support.
+Shared hosting costs $3–$13/month. Entry-level VPS starts around $5–$6/month from providers like Hetzner or Vultr (unmanaged) or $15–$25/month for managed VPS with a control panel and support.
 
 If you're comfortable with a Linux command line, unmanaged VPS providers offer better price-to-performance than shared hosting even at the low end. If "SSH" sounds like a hissing sound rather than a protocol, stick with shared hosting until you need more.
 
@@ -312,7 +312,7 @@ If you're comfortable with a Linux command line, unmanaged VPS providers offer b
 
 Managed WordPress hosting (Kinsta, WP Engine, Flywheel) runs on optimized infrastructure with WordPress-specific caching, automatic updates, staging environments, and expert WordPress support. It also restricts what you can install — certain plugins are banned for performance or security reasons.
 
-At $15–30/month, it's 3–5x the cost of shared hosting. Worth it if WordPress is your livelihood. Overkill for a personal blog.
+At $15–$30/month, it's 3–5x the cost of shared hosting. Worth it if WordPress is your livelihood. Overkill for a personal blog.
 
 ### Shared Hosting vs Cloud Hosting
 
@@ -437,7 +437,7 @@ Upgrade when you see consistent symptoms: frequent 503 errors during traffic spi
 
 ### How much does shared hosting really cost after promotional pricing ends?
 
-Expect renewal prices 70–280% higher than intro pricing, depending on the host. The practical range is $4–45/month at renewal. SiteGround and Bluehost have the steepest jumps (260–277%). Hostinger and DreamHost have the fairest renewals (33–90% increase). Always calculate your Year 2 cost before committing — that's the price you'll actually pay for most of your hosting relationship.
+Expect renewal prices 70–280% higher than intro pricing, depending on the host. The practical range is $4–$45/month at renewal. SiteGround and Bluehost have the steepest jumps (260–277%). Hostinger and DreamHost have the fairest renewals (33–90% increase). Always calculate your Year 2 cost before committing — that's the price you'll actually pay for most of your hosting relationship.
 
 ### Can I host multiple websites on a shared hosting plan?
 

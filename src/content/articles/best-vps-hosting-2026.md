@@ -96,7 +96,7 @@ Hostinger gets dragged in enthusiast circles for their marketing, and some of it
 
 They use KVM virtualization on NVMe storage with real resource guarantees, not the OpenVZ-with-burstable-RAM trick that some budget hosts still pull. If you know what you're doing on a Linux box, you'll get a lot of server for not much money.
 
-**Pricing reality check:** The $5.99/month entry plan is on a two-year commit. Monthly billing runs significantly higher, and renewal pricing lands in the $9-11/month range for the same spec. Still cheaper than almost anything comparable, but factor in the true long-term cost before you commit.
+**Pricing reality check:** The $5.99/month entry plan is on a two-year commit. Monthly billing runs significantly higher, and renewal pricing lands in the $9-$11/month range for the same spec. Still cheaper than almost anything comparable, but factor in the true long-term cost before you commit.
 
 **Real-world experience:** I've had a staging environment running on a Hostinger VPS 2 plan for about eight months. No unplanned downtime that I can point at them for. Disk I/O on the NVMe volumes is genuinely fast — database-heavy workloads like WooCommerce staging perform notably better than they do on older SATA-SSD VPS tiers from other budget providers.
 
@@ -144,7 +144,7 @@ For $100/month on GCP infrastructure, you could run a DigitalOcean droplet with 
 
 WP Engine was the premium WordPress host for years. It's still a very capable product, but it's no longer the obvious choice it used to be. Kinsta has caught up on the performance side, and WP Engine's aggressive plugin blocklist has frustrated more than a few developers I know.
 
-**Pricing** starts around $25/month for the Essential Startup plan (25K monthly visits, 10GB storage, single install). Actual business usage realistically starts at the Growth tier, around $55-60/month.
+**Pricing** starts around $25/month for the Essential Startup plan (25K monthly visits, 10GB storage, single install). Actual business usage realistically starts at the Growth tier, around $55-$60/month.
 
 **Real-world experience:** EverCache is real and works. WordPress sites consistently feel fast from multiple geographies. The Genesis Framework acquisition gave them a theme ecosystem moat that's mostly irrelevant in 2026 unless you're deep in the Genesis world.
 

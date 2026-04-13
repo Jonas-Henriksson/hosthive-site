@@ -175,7 +175,7 @@ This is where WP Engine earns its premium. TTFB consistently under 250ms from mu
 **Where WP Engine falls short:**
 - The visitor-based pricing model is a trap for growing sites. If you get a viral blog post that pushes you over 25K visits in a month, you're paying overage fees — and the jump from Startup to Professional is $19/mo for a relatively small visitor increase
 - WordPress only. If you ever need to run a non-WordPress site (a documentation portal, a custom app), you need separate hosting
-- No email hosting at all. Budget an additional $6-7/user/month for Google Workspace or Microsoft 365
+- No email hosting at all. Budget an additional $6-$7/user/month for Google Workspace or Microsoft 365
 - Plugin restrictions are real. They block certain plugins for performance and security reasons, which is generally good practice but can be frustrating if your business depends on a blocked plugin
 - 10GB storage on the Starter plan fills up fast with media-heavy sites
 
@@ -258,7 +258,7 @@ Kinsta is fast. Consistently the lowest TTFB we've measured, often under 200ms f
 Ecommerce adds real requirements: daily backups are non-negotiable, SSL must work flawlessly, and uptime matters more because downtime directly costs you sales. **SiteGround** or **WP Engine** are the safe choices here. Our [Best WooCommerce Hosting 2026](/best-woocommerce-hosting-2026) guide covers this in detail.
 
 ### Best for High-Traffic Business Sites
-**WP Engine Professional** or **Cloudways** (scaled up to a 4GB+ server). Kinsta is technically superior but hard to justify on cost unless you're running a site that generates enough revenue to absorb $70+/month in hosting. Consider the total cost including email hosting, which adds $6-7/user/month on top.
+**WP Engine Professional** or **Cloudways** (scaled up to a 4GB+ server). Kinsta is technically superior but hard to justify on cost unless you're running a site that generates enough revenue to absorb $70+/month in hosting. Consider the total cost including email hosting, which adds $6-$7/user/month on top.
 
 ### Best for Agencies Managing Client Sites
 **SiteGround GoGeek** for the white-label features and staging environments, or **Cloudways** for the flexibility of spinning up isolated servers per client. Cloudways wins on a per-client cost basis; SiteGround wins on simplicity.
@@ -399,11 +399,11 @@ Your choice comes down to this: How much is your time worth, and what happens to
 
 ### What's the difference between shared hosting and managed WordPress hosting for small businesses?
 
-Shared hosting ($3-10/month) puts your site on a server with hundreds of other sites, sharing CPU, RAM, and bandwidth. You get a control panel and basic support. Managed WordPress hosting ($20-70/month) gives you WordPress-specific infrastructure — server-level caching, automatic updates with regression testing, WordPress-expert support, and staging environments. The performance difference is real, but whether it's worth 4-7x the cost depends on your traffic and revenue.
+Shared hosting ($3-$10/month) puts your site on a server with hundreds of other sites, sharing CPU, RAM, and bandwidth. You get a control panel and basic support. Managed WordPress hosting ($20-$70/month) gives you WordPress-specific infrastructure — server-level caching, automatic updates with regression testing, WordPress-expert support, and staging environments. The performance difference is real, but whether it's worth 4-7x the cost depends on your traffic and revenue.
 
 ### How much should a small business budget for web hosting annually?
 
-Honestly budget for the renewal price, not the intro price. Shared hosting runs $100-350/year at renewal. Managed WordPress hosting is $240-840/year. Add $72/user/year for business email if your host doesn't include it. A realistic all-in budget for a small business with 3 email users on managed hosting: $450-1,000/year.
+Honestly budget for the renewal price, not the intro price. Shared hosting runs $100-$350/year at renewal. Managed WordPress hosting is $240-$840/year. Add $72/user/year for business email if your host doesn't include it. A realistic all-in budget for a small business with 3 email users on managed hosting: $450-$1,000/year.
 
 ### Do I need a separate email hosting service for my business?
 

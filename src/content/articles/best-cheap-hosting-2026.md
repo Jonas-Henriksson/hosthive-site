@@ -299,7 +299,7 @@ The right time to upgrade isn't when a marketing page tells you to — it's when
 - Your traffic consistently exceeds what shared hosting can handle
 - Downtime starts costing you real money
 
-When that time comes, the jump to a VPS (starting around $5–12/month from providers like DigitalOcean, Vultr, or Linode) gives you dedicated resources and dramatically more control. Managed WordPress hosting from providers like Cloudways or Kinsta is another step up if you want performance without server administration.
+When that time comes, the jump to a VPS (starting around $5–$12/month from providers like DigitalOcean, Vultr, or Linode) gives you dedicated resources and dramatically more control. Managed WordPress hosting from providers like Cloudways or Kinsta is another step up if you want performance without server administration.
 
 For growing WordPress sites specifically, see our [Best WordPress Hosting 2026: Top 6 Providers Tested & Compared](/best-wordpress-hosting-2026).
 

@@ -179,7 +179,7 @@ WP Engine handles everything you would normally manage yourself: WordPress core 
 
 **Cons:**
 - Starting price of $20/mo is 5x more than shared hosting
-- Visitor limits on lower plans (25,000/mo on Startup)
+- Visitor limits on lower plans ($25,000/mo on Startup)
 - No email hosting included — you need a separate provider
 - Some popular plugins are blocked for performance/security reasons
 - Overage charges if you exceed your plan's visitor limits

@@ -126,7 +126,7 @@ The auto-scaling works but has limits — it scales horizontally by adding conta
 - If you need websockets via Django Channels, the configuration isn't straightforward
 
 ### Pricing
-Starting at $5/month for a basic container, though a realistic Django production setup with a managed database lands around $19-27/month. The pricing is transparent and doesn't play renewal games, which is refreshing.
+Starting at $5/month for a basic container, though a realistic Django production setup with a managed database lands around $19-$27/month. The pricing is transparent and doesn't play renewal games, which is refreshing.
 
 ## 4. Kinsta Application Hosting — Best Performance
 
@@ -134,7 +134,7 @@ Kinsta built its reputation on premium WordPress hosting, and their application 
 
 In our testing, Kinsta consistently delivered the fastest response times of any provider we tested. Page loads were noticeably snappier, and performance held steady under load testing. The built-in CDN integration helps with static assets.
 
-Here's the catch: the pricing. Kinsta charges based on build minutes, bandwidth, and container resources, and the math gets expensive fast. A Django app that costs $14/month on Cloudways can easily hit $40-50/month on Kinsta for comparable resources. You're paying for Google Cloud premium infrastructure with Kinsta's management layer on top.
+Here's the catch: the pricing. Kinsta charges based on build minutes, bandwidth, and container resources, and the math gets expensive fast. A Django app that costs $14/month on Cloudways can easily hit $40-$50/month on Kinsta for comparable resources. You're paying for Google Cloud premium infrastructure with Kinsta's management layer on top.
 
 ### Pros
 - Genuinely fast — the Google Cloud premium network makes a measurable difference
@@ -149,7 +149,7 @@ Here's the catch: the pricing. Kinsta charges based on build minutes, bandwidth,
 - No traditional SSH access — you're locked into their deployment workflow
 
 ### Pricing
-Starts at $7/month but realistic Django hosting lands at $18-36/month. Watch the build minutes and bandwidth limits carefully — overages are billed separately. For high-traffic apps, do the math against running your own optimized server on a VPS.
+Starts at $7/month but realistic Django hosting lands at $18-$36/month. Watch the build minutes and bandwidth limits carefully — overages are billed separately. For high-traffic apps, do the math against running your own optimized server on a VPS.
 
 [Get Started with Kinsta](https://host-hive.net/go/kinsta-apps)
 
@@ -361,7 +361,7 @@ The modern approach: push to a Git repository, let your hosting platform or CI/C
 
 **For most Django projects,** Cloudways offers the best balance of performance, Django-specific tooling, and managed convenience. You're paying a premium over raw VPS, but the pre-configured stack and object caching alone save hours of setup.
 
-**If budget is the priority,** Hostinger VPS or a raw DigitalOcean Droplet at $5-10/month gets you a functional Django server. Just be honest about the time cost of managing it yourself.
+**If budget is the priority,** Hostinger VPS or a raw DigitalOcean Droplet at $5-$10/month gets you a functional Django server. Just be honest about the time cost of managing it yourself.
 
 **If your team uses modern DevOps workflows,** DigitalOcean App Platform's Git-based deployment is the smoothest developer experience in this group.
 

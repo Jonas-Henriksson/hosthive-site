@@ -148,7 +148,7 @@ The other issue: Kinsta's support expertise is heavily weighted toward WordPress
 
 ### Pricing
 
-Starts at **$7/month** but realistically **$25-75/month** for production Node.js apps. Build minutes and bandwidth are the constraints that push you up tiers, not RAM or CPU.
+Starts at **$7/month** but realistically **$25-$75/month** for production Node.js apps. Build minutes and bandwidth are the constraints that push you up tiers, not RAM or CPU.
 
 ### Bottom Line
 
@@ -200,13 +200,13 @@ Elastic Beanstalk is AWS's attempt at making application deployment accessible. 
 
 If you're already in the AWS ecosystem, Beanstalk makes sense. It removes the tedious parts of EC2 management while keeping the flexibility. The `.ebextensions` configuration system lets you install system packages, configure Nginx, set up cron jobs, and customize the environment in ways that PaaS platforms don't allow.
 
-The downsides are real, though. AWS pricing is notoriously opaque — you're paying for EC2 instances, EBS storage, data transfer, load balancers, and CloudWatch separately. A simple Node.js app that costs $12/month on DigitalOcean can easily cost $30-50/month on AWS once you factor in all the components. And that's before you add RDS for a managed database.
+The downsides are real, though. AWS pricing is notoriously opaque — you're paying for EC2 instances, EBS storage, data transfer, load balancers, and CloudWatch separately. A simple Node.js app that costs $12/month on DigitalOcean can easily cost $30-$50/month on AWS once you factor in all the components. And that's before you add RDS for a managed database.
 
 The learning curve is steep. Beanstalk abstracts some complexity, but debugging deployment failures still requires understanding EC2, security groups, IAM roles, and CloudFormation. If your team doesn't already have AWS experience, the onboarding cost is significant.
 
 ### Pricing
 
-No Beanstalk fee — you pay for underlying resources. A minimal setup (t3.micro + basic load balancer) runs roughly **$15-25/month**. Production setups with RDS, ElastiCache, and proper monitoring easily exceed **$100/month**. AWS's free tier covers a t3.micro for 12 months, which is useful for experimentation.
+No Beanstalk fee — you pay for underlying resources. A minimal setup (t3.micro + basic load balancer) runs roughly **$15-$25/month**. Production setups with RDS, ElastiCache, and proper monitoring easily exceed **$100/month**. AWS's free tier covers a t3.micro for 12 months, which is useful for experimentation.
 
 ### Bottom Line
 
@@ -228,7 +228,7 @@ Heroku pioneered the `git push` deployment model and it's still one of the simpl
 
 The deployment experience is still best-in-class for simplicity. `git push heroku main` and your app is live in under two minutes. The buildpack system handles Node version selection, dependency installation, and build steps automatically. For developers who want zero infrastructure management, nothing else is quite as frictionless.
 
-The problems are all about cost. Heroku's pricing has become increasingly uncompetitive. A basic production dyno (Standard-1X) is **$25/month** for 512MB RAM. That's the same RAM you'd get on a $5/month DigitalOcean droplet. Add a managed Postgres database ($9/month for the cheapest production-grade plan) and a Redis instance, and you're easily at $50-60/month for a simple app.
+The problems are all about cost. Heroku's pricing has become increasingly uncompetitive. A basic production dyno (Standard-1X) is **$25/month** for 512MB RAM. That's the same RAM you'd get on a $5/month DigitalOcean droplet. Add a managed Postgres database ($9/month for the cheapest production-grade plan) and a Redis instance, and you're easily at $50-$60/month for a simple app.
 
 Performance is adequate but not impressive. Heroku's routing layer adds latency compared to providers where you're closer to the metal. The shared routing mesh means your app's response times are partly at the mercy of the platform's overall load.
 
@@ -236,7 +236,7 @@ Vendor lock-in is the other concern. Heroku's add-on model and proprietary Procf
 
 ### Pricing
 
-Hobby dynos at **$7/month** (no free tier anymore — that ended in 2022). Production starts at **$25/month** per dyno. Database add-ons are additional. A realistic production setup runs **$50-100/month** for what you could host elsewhere for $15-25.
+Hobby dynos at **$7/month** (no free tier anymore — that ended in 2022). Production starts at **$25/month** per dyno. Database add-ons are additional. A realistic production setup runs **$50-$100/month** for what you could host elsewhere for $15-25.
 
 ### Bottom Line
 

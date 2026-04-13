@@ -69,7 +69,7 @@ Their CDN is backed by Cloudflare's enterprise network now, which is a meaningfu
 
 ### What Didn't
 
-Storage is stingy — 10GB on the entry plan means you'll be watching your media library carefully. There's no email hosting at all, so budget another $5-6/month for Google Workspace or Zoho. And at $20/month for a single site, you're paying 6-7x what Hostinger charges. That premium is worth it for a business site generating revenue, but it's overkill for a personal blog.
+Storage is stingy — 10GB on the entry plan means you'll be watching your media library carefully. There's no email hosting at all, so budget another $5-$6/month for Google Workspace or Zoho. And at $20/month for a single site, you're paying 6-7x what Hostinger charges. That premium is worth it for a business site generating revenue, but it's overkill for a personal blog.
 
 The banned plugins list is a real limitation too. WP Engine blocks certain caching and backup plugins that conflict with their stack. If your workflow depends on a specific plugin, check their compatibility list before committing.
 
@@ -310,7 +310,7 @@ Bluehost's security features that matter — SiteLock scanning and CodeGuard bac
 
 ### The Honest Framework
 
-**If you're making money from your site** (e-commerce, client work, business leads): WP Engine or Kinsta. The premium pricing pays for itself in reliability, support quality, and time you don't spend troubleshooting. A $20-35/month hosting bill is noise compared to the revenue a down site costs you.
+**If you're making money from your site** (e-commerce, client work, business leads): WP Engine or Kinsta. The premium pricing pays for itself in reliability, support quality, and time you don't spend troubleshooting. A $20-$35/month hosting bill is noise compared to the revenue a down site costs you.
 
 **If you're starting out and budget matters:** Hostinger. The LiteSpeed performance is real, the renewal pricing is the fairest among budget hosts, and you can always migrate later. SiteGround if you value support quality and are willing to pay more at renewal.
 
@@ -330,7 +330,7 @@ For more hosting comparisons beyond WordPress-specific options, see our [Best We
 WordPress hosting means the server stack is tuned for WordPress specifically — PHP version management, WordPress-aware caching (like LSCache or Nginx FastCGI), automatic core updates, and support staff who know WordPress. Generic shared hosting runs WordPress fine, but you're doing all the optimization and troubleshooting yourself. The difference matters most when something breaks.
 
 ### How much should I expect to pay for quality WordPress hosting?
-Ignore intro pricing — look at renewal rates. Budget shared hosting runs $8-18/month at renewal. Managed WordPress hosting runs $20-70/month. Most small-to-medium WordPress sites are well-served in the $10-25/month range. Below $8/month at renewal, you're likely on oversold shared servers. Above $35/month, you're paying for managed features that only matter if you'll use them.
+Ignore intro pricing — look at renewal rates. Budget shared hosting runs $8-$18/month at renewal. Managed WordPress hosting runs $20-$70/month. Most small-to-medium WordPress sites are well-served in the $10-$25/month range. Below $8/month at renewal, you're likely on oversold shared servers. Above $35/month, you're paying for managed features that only matter if you'll use them.
 
 ### Do I need managed WordPress hosting or is shared hosting sufficient?
 For a personal blog or brochure site with under 10,000 monthly visitors, shared hosting from Hostinger or SiteGround is plenty. For a business site, WooCommerce store, or anything generating revenue, managed hosting pays for itself in fewer headaches. The deciding question isn't traffic volume — it's how much downtime or slow performance would cost you.
