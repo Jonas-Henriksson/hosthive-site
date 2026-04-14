@@ -1,6 +1,7 @@
 ---
 title: "Best Cheap Hosting 2026: 7 Budget Providers Under 3/Month Tested"
 description: "Find the best cheap hosting under 3/month in 2026. We tested 7 budget providers for uptime, speed, and support to find the top affordable options."
+image: "/images/articles/best-cheap-hosting-2026/hero.png"
 date: 2026-04-08
 category: budget
 author: "James Whitfield"
@@ -25,6 +26,8 @@ We spent several weeks running real WordPress sites on each of these seven provi
 
 ## Quick Verdict: Top 3 Budget Hosting Picks
 
+![Quick Verdict: Top 3 Budget Hosting Picks](/images/articles/best-cheap-hosting-2026/section-1.png)
+
 **Hostinger** — $1.99/month intro, solid performance on LiteSpeed servers, best overall value if you can stomach the renewal jump to $3.99/month.
 
 **Bluehost** — $2.95/month intro, WordPress comes pre-installed with decent defaults. But that $7.99/month renewal is a rude awakening.
@@ -32,6 +35,8 @@ We spent several weeks running real WordPress sites on each of these seven provi
 **SiteGround StartUp** — $2.99/month intro with genuinely good support and caching. The catch? $14.99/month renewal and only 10GB of storage. That's not a typo.
 
 ## How We Actually Tested These
+
+![How We Actually Tested These](/images/articles/best-cheap-hosting-2026/section-2.png)
 
 No fake lab environments here. We installed a standard WordPress site with a starter theme, a contact form plugin, and a few pages of content on each provider. Then we:
 
