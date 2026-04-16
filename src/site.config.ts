@@ -27,6 +27,7 @@ export const siteConfig = {
       turbify: { name: 'Turbify', affiliateUrl: 'https://host-hive.net/go/turbify', program: 'CJ', commission: '3.00%' },
       sucuri: { name: 'Sucuri', affiliateUrl: 'https://host-hive.net/go/sucuri', program: 'CJ', commission: 'USD 49.99' },
       elementor: { name: 'Elementor', affiliateUrl: 'https://host-hive.net/go/elementor', program: 'CJ', commission: '45.00%' },
+      hostpapa: { name: 'Hostpapa', affiliateUrl: 'https://host-hive.net/go/hostpapa', program: 'CJ', commission: 'USD 45.00' },
   },
   social: {
     twitter: 'https://twitter.com/hosthive',
