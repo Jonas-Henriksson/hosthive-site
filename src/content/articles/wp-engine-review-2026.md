@@ -1,7 +1,7 @@
 ---
 title: "WP Engine Review 2026: 99.99% Uptime, 127ms TTFB — Worth $25/mo?"
 description: "WP Engine delivered the fastest managed WordPress we tested. But at $25/mo with strict traffic limits, it's not for everyone. Here's who should actually pay for it."
-image: "/images/articles/wp-engine-review-2026/hero.png"
+image: "https://images.host-hive.net/wp-engine-review-2026/hero.png"
 date: 2026-04-10
 updated: 2026-04-10
 category: managed

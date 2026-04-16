@@ -1,7 +1,7 @@
 ---
 title: "Bluehost Review 2026: Is It Still Worth It? Our Verdict After Testing"
 description: "Bluehost hit 99.9% uptime but renewal prices jump 2.5x after year one. We break down the real performance numbers, hidden fees, and whether to stay or switch."
-image: "/images/articles/bluehost-review-2026/hero.png"
+image: "https://images.host-hive.net/bluehost-review-2026/hero.png"
 date: 2026-04-08
 category: wordpress
 author: "James Whitfield"

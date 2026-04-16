@@ -1,7 +1,7 @@
 ---
 title: "7 Cheapest Hosting Providers 2026: From $1.99/mo — Ranked by Value"
 description: "Hostinger hits 99.9% uptime at $2.49/mo. We ranked 7 budget hosts under $3/month by real speed and reliability — not just the promo price."
-image: "/images/articles/best-cheap-hosting-2026/hero.png"
+image: "https://images.host-hive.net/best-cheap-hosting-2026/hero.png"
 date: 2026-04-08
 category: budget
 author: "James Whitfield"
