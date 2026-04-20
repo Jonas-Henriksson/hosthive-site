@@ -130,7 +130,7 @@ Bandwidth overage charges also caught us off guard. The base plans include 1TB, 
 - Bandwidth overages can add up
 - AWS and Google Cloud options are expensive for what you get at the 1GB tier
 
-Start with Cloudways on [DigitalOcean](https://host-hive.net/go/cloudways) — it's the best value among their cloud options.
+Start with Cloudways on [DigitalOcean](https://host-hive.net/go/digitalocean) — it's the best value among their cloud options.
 
 ## Hostinger — Best Budget Option
 

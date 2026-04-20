@@ -275,7 +275,7 @@ No intro pricing games. The price listed is the price you pay, month after month
 - Fewer global regions than AWS or GCP. 15 data centers is adequate for most use cases but limiting if you need presence in specific geographies.
 - Backup add-ons cost 20% of your Droplet price monthly. A $6/month Droplet with weekly backups becomes $7.20/month — not terrible, but it adds up across multiple Droplets.
 
-[Get Started with DigitalOcean](https://www.digitalocean.com) — New accounts get $200 in free credits to experiment with.
+[Get Started with DigitalOcean](https://host-hive.net/go/digitalocean) — New accounts get $200 in free credits to experiment with.
 
 ## Use Case Recommendations
 
