@@ -1,4 +1,5 @@
 ---
+import { SEO } from 'astro-seo';
 import siteConfig from '../site.config';
 import '../styles/global.css';
 
@@ -9,6 +10,7 @@ interface Props {
   canonical?: string;
   ogType?: string;
   structuredData?: Record<string, any> | Record<string, any>[];
+  noindex?: boolean;
 }
 
 const {
@@ -18,6 +20,7 @@ const {
   canonical = Astro.url.href,
   ogType = 'website',
   structuredData,
+  noindex = false,
 } = Astro.props;
 
 const fullTitle = title.includes(siteConfig.siteName) ? title : `${title} | ${siteConfig.siteName}`;
@@ -50,9 +53,7 @@ const navLinks = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#0a0a0b" />
-    <meta name="description" content={description} />
     <meta name="author" content={siteConfig.defaultAuthor.name} />
-    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Fonts: Instrument Serif (display) + Satoshi (body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,15 +61,19 @@ const navLinks = [
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet" />
 
-    <meta property="og:title" content={fullTitle} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:type" content={ogType} />
-    <meta property="og:url" content={canonicalUrl} />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={fullTitle} />
-    <meta name="twitter:description" content={description} />
+    <SEO
+      title={fullTitle}
+      description={description}
+      canonical={canonicalUrl}
+      noindex={noindex}
+      nofollow={noindex}
+      openGraph={{
+        basic: { title: fullTitle, type: ogType, image, url: canonicalUrl },
+        optional: { description },
+        image: { url: image, width: 1200, height: 630, type: 'image/png' },
+      }}
+      twitter={{ card: 'summary_large_image', title: fullTitle, description }}
+    />
 
     {structuredData ? (
       Array.isArray(structuredData)
@@ -78,24 +83,10 @@ const navLinks = [
       <script type="application/ld+json" set:html={JSON.stringify(defaultSchema)} />
     )}
 
-    <title>{fullTitle}</title>
     <script defer data-domain="host-hive.net" src="https://analytics.toolsradar.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  
-    <!-- Ezoic Ad Runtime -->
-    <script>
-      var defined_ez = false;
-      if (typeof window.__ezoic_enabled === 'undefined' || window.__ezoic_enabled) {
-        var ez_ad_units = [];
-        var defined_ez = true;
-      }
-    </script>
-    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-    <script>
-      window.ezstandalone = window.ezstandalone || {};
-      ezstandalone.cmd = ezstandalone.cmd || [];
-    </script>
-    <!-- Google AdSense -->
+
+    <!-- Google AdSense (Ezoic removed: dual mediator was a likely cause of AdSense rejection 2026-04-19) -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8237291568873305" crossorigin="anonymous"></script>
   </head>
   <body>
