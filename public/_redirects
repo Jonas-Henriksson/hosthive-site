@@ -1,3 +1,5 @@
+https://www.host-hive.net/* https://host-hive.net/:splat 301!
+
 /sitemap.xml /sitemap-index.xml 301
 
 /go/bluehost https://bluehost.sjv.io/c/7170259/1376228/11352 301
