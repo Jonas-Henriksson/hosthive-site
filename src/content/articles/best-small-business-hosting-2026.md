@@ -302,7 +302,7 @@ Skip the marketing checklists. Here's what's genuinely different between these h
 
 **Hostinger** uses BitNinja for server-level protection, which is respectable but more reactive than SiteGround's approach. Malware scanning is weekly, not daily — a meaningful gap for ecommerce sites.
 
-**Bluehost** offers basic security that you'll likely need to supplement with a plugin like Wordfence or Sucuri. Their included security is the weakest of the group.
+**Bluehost** offers basic security that you'll likely need to supplement with a plugin like Wordfence or [Sucuri](/go/sucuri). Their included security is the weakest of the group.
 
 **Cloudways** gives you server-level firewalls and OS-level security, plus you can install any security tool you want. More control, more responsibility.
 
@@ -444,5 +444,7 @@ If you're exploring this topic further, these are the tools and products we regu
 - [Try Hostinger](/go/hostinger)
 - [Try Bluehost](/go/bluehost)
 - [Try Kinsta](/go/kinsta)
+- [HostPapa — Small Business Hosting](/go/hostpapa)
+- [Sucuri — Website Security & WAF](/go/sucuri)
 
 *Some of these links may earn us a commission if you sign up or make a purchase. This doesn't affect our reviews or recommendations — see our [disclosure](/disclosure) for details.*

@@ -484,5 +484,6 @@ If you're exploring this topic further, these are the tools and products we regu
 
 - [Try Kinsta](/go/kinsta)
 - [Try Contabo VPS](/go/contabo)
+- [Gandi — Privacy-First French Domain Registrar & Host](/go/gandi)
 
 *Some of these links may earn us a commission if you sign up or make a purchase. This doesn't affect our reviews or recommendations — see our [disclosure](/disclosure) for details.*
