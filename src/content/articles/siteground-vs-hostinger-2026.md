@@ -232,4 +232,4 @@ If you're exploring this topic further, these are the tools and products we regu
 
 - [Try Hostinger](/go/hostinger)
 
-*Some of these links may earn us a commission if you sign up or make a purchase. This doesn't affect our reviews or recommendations — see our [disclosure](/disclosure) for details.*
+*Some links on this page are affiliate links. If you click one and purchase or sign up for a service, we earn a commission at no extra cost to you. This does not influence our editorial recommendations — see our [disclosure](/disclosure) for details.*
