@@ -1,6 +1,7 @@
 ---
 title: "Best Hosting for Portfolio Websites 2026: 6 Hosts Tested by a Developer"
 description: "Ranked by real TTFB tests: 6 portfolio website hosting picks for 2026. Kinsta leads at 180ms; Bluehost hits 410ms. Honest scores, real renewal prices."
+image: "https://images.host-hive.net/best-hosting-for-portfolio-websites-2026/hero.png"
 date: 2026-04-25
 category: shared
 author: "Priya Mehta"
@@ -34,6 +35,8 @@ This guide is for developers, designers, photographers, and freelancers who need
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.host-hive.net/best-hosting-for-portfolio-websites-2026/section-1.png)
+
 | Category | Winner | Why |
 |---|---|---|
 | **Overall Winner** | Hostinger Business | 210ms NYC TTFB, 99.99% uptime, $2.99/mo intro |
@@ -43,6 +46,8 @@ This guide is for developers, designers, photographers, and freelancers who need
 | **Budget Pick** | Namecheap Stellar | $1.48/mo intro, honest renewal at $5.88/mo |
 
 ## How I Tested
+
+![How I Tested](https://images.host-hive.net/best-hosting-for-portfolio-websites-2026/section-2.png)
 
 My benchmark setup is intentionally cynical about vendor marketing. I always benchmark twice — once with caching disabled, once enabled. Speed claims that vanish when you turn off the proprietary CDN do not count.
 
