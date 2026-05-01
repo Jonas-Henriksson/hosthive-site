@@ -28,6 +28,7 @@ export const siteConfig = {
       sucuri: { name: 'Sucuri', affiliateUrl: 'https://host-hive.net/go/sucuri', program: 'CJ', commission: 'USD 49.99' },
       elementor: { name: 'Elementor', affiliateUrl: 'https://host-hive.net/go/elementor', program: 'CJ', commission: '45.00%' },
       hostpapa: { name: 'Hostpapa', affiliateUrl: 'https://host-hive.net/go/hostpapa', program: 'CJ', commission: 'USD 45.00' },
+      dynadot: { name: 'Dynadot.com', affiliateUrl: 'https://host-hive.net/go/dynadot', program: 'CJ', commission: '25.00%' },
   },
   social: {
     twitter: 'https://twitter.com/hosthive',
