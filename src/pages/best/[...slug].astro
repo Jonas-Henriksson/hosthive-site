@@ -44,23 +44,6 @@ export async function getStaticPaths() {
       params: { slug: `web-hosting-for-${useCase}` },
       props: { useCase, useCaseDisplay },
     }));
-}, props: { useCase: 'wordpress', useCaseDisplay: 'Wordpress' } },
-    { params: { slug: 'web-hosting-for-ecommerce' }, props: { useCase: 'ecommerce', useCaseDisplay: 'Ecommerce' } },
-    { params: { slug: 'web-hosting-for-beginners' }, props: { useCase: 'beginners', useCaseDisplay: 'Beginners' } },
-    { params: { slug: 'web-hosting-for-developers' }, props: { useCase: 'developers', useCaseDisplay: 'Developers' } },
-    { params: { slug: 'web-hosting-for-small-business' }, props: { useCase: 'small-business', useCaseDisplay: 'Small Business' } },
-    { params: { slug: 'web-hosting-for-agencies' }, props: { useCase: 'agencies', useCaseDisplay: 'Agencies' } },
-    { params: { slug: 'web-hosting-for-bloggers' }, props: { useCase: 'bloggers', useCaseDisplay: 'Bloggers' } },
-    { params: { slug: 'web-hosting-for-high-traffic' }, props: { useCase: 'high-traffic', useCaseDisplay: 'High Traffic' } },
-    { params: { slug: 'web-hosting-for-budget' }, props: { useCase: 'budget', useCaseDisplay: 'Budget' } },
-    { params: { slug: 'web-hosting-for-managed' }, props: { useCase: 'managed', useCaseDisplay: 'Managed' } },
-    { params: { slug: 'web-hosting-for-vps' }, props: { useCase: 'vps', useCaseDisplay: 'Vps' } },
-    { params: { slug: 'web-hosting-for-dedicated' }, props: { useCase: 'dedicated', useCaseDisplay: 'Dedicated' } },
-    { params: { slug: 'web-hosting-for-django' }, props: { useCase: 'django', useCaseDisplay: 'Django' } },
-    { params: { slug: 'web-hosting-for-nodejs' }, props: { useCase: 'nodejs', useCaseDisplay: 'Nodejs' } },
-    { params: { slug: 'web-hosting-for-staging' }, props: { useCase: 'staging', useCaseDisplay: 'Staging' } }
-  ];
-}
 
 const { useCase, useCaseDisplay } = Astro.props;
 const allArticles = await getCollection('articles', ({ data }) => !data.draft);
