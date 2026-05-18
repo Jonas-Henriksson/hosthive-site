@@ -5,8 +5,46 @@ import { getCollection } from 'astro:content';
 import siteConfig from '../../site.config';
 
 export async function getStaticPaths() {
-  return [
-    { params: { slug: 'web-hosting-for-wordpress' }, props: { useCase: 'wordpress', useCaseDisplay: 'Wordpress' } },
+  const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+
+  const candidates = [
+    { useCase: 'wordpress', useCaseDisplay: 'WordPress' },
+    { useCase: 'ecommerce', useCaseDisplay: 'Ecommerce' },
+    { useCase: 'beginners', useCaseDisplay: 'Beginners' },
+    { useCase: 'developers', useCaseDisplay: 'Developers' },
+    { useCase: 'small-business', useCaseDisplay: 'Small Business' },
+    { useCase: 'agencies', useCaseDisplay: 'Agencies' },
+    { useCase: 'bloggers', useCaseDisplay: 'Bloggers' },
+    { useCase: 'high-traffic', useCaseDisplay: 'High Traffic' },
+    { useCase: 'budget', useCaseDisplay: 'Budget' },
+    { useCase: 'managed', useCaseDisplay: 'Managed' },
+    { useCase: 'vps', useCaseDisplay: 'VPS' },
+    { useCase: 'dedicated', useCaseDisplay: 'Dedicated' },
+    { useCase: 'django', useCaseDisplay: 'Django' },
+    { useCase: 'nodejs', useCaseDisplay: 'Node.js' },
+    { useCase: 'staging', useCaseDisplay: 'Staging' },
+  ];
+
+  return candidates
+    .filter(({ useCase }) => {
+      const words = useCase.replace(/-/g, ' ').toLowerCase().split(' ');
+      const matches = allArticles.filter((a) => {
+        const searchable = [
+          a.data.title || '',
+          a.data.description || '',
+          a.data.category || '',
+          ...(a.data.keywords || []),
+          ...(a.data.tags || []),
+        ].join(' ').toLowerCase();
+        return words.some((w) => searchable.includes(w));
+      });
+      return matches.length >= 3;
+    })
+    .map(({ useCase, useCaseDisplay }) => ({
+      params: { slug: `web-hosting-for-${useCase}` },
+      props: { useCase, useCaseDisplay },
+    }));
+}, props: { useCase: 'wordpress', useCaseDisplay: 'Wordpress' } },
     { params: { slug: 'web-hosting-for-ecommerce' }, props: { useCase: 'ecommerce', useCaseDisplay: 'Ecommerce' } },
     { params: { slug: 'web-hosting-for-beginners' }, props: { useCase: 'beginners', useCaseDisplay: 'Beginners' } },
     { params: { slug: 'web-hosting-for-developers' }, props: { useCase: 'developers', useCaseDisplay: 'Developers' } },
@@ -44,7 +82,6 @@ const matchingArticles = allArticles.filter((a) => {
 // Fallback to all articles if no specific matches
 const articles = matchingArticles.length > 0 ? matchingArticles : allArticles;
 const sorted = [...articles].sort((a, b) => (b.data.score || 0) - (a.data.score || 0));
-const isThinContent = matchingArticles.length > 0 && matchingArticles.length < 3;
 
 const nicheDisplay = 'Web Hosting';
 const pageTitle = `Best ${nicheDisplay} for ${useCaseDisplay} 2026 — ${siteConfig.siteName}`;
@@ -71,7 +108,6 @@ const itemListSchema = {
   title={pageTitle}
   description={pageDesc}
   structuredData={itemListSchema}
-  noindex={isThinContent}
 >
   <div class="best-for-page">
     <nav class="breadcrumb" aria-label="Breadcrumb">
