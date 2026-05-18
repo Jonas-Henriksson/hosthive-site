@@ -17,7 +17,7 @@ const {
   title,
   description = siteConfig.description,
   image = `${siteConfig.domain}/og-image.png`,
-  canonical = Astro.url.href,
+  canonical = `${siteConfig.domain}${Astro.url.pathname}`,
   ogType = 'website',
   structuredData,
   noindex = false,
